@@ -6,17 +6,59 @@ A Multi-Agent Voice-Based AI System for Hybrid Learning using Retrieval-Augmente
 
 ## Project Overview
 
-This capstone project presents a multi-agent AI architecture designed to support hybrid learning environments through intelligent tutoring, knowledge retrieval, content summarization, and voice-based interaction.
+This capstone project presents a multi-agent AI architecture designed to support hybrid learning through the integration of Retrieval-Augmented Generation (RAG) and modular agent-based intelligence.
 
-The system combines Retrieval-Augmented Generation (RAG), vector search, autonomous AI agents, and voice technologies to create a personalized and scalable learning experience.
+The system enables users to learn from both user-provided documents and general topic queries by dynamically orchestrating specialized AI agents. Voice-based interaction capabilities further enhance the learning experience by enabling conversational and human-centric engagement.
 
 ---
 
 ## Problem Statement
 
-Traditional learning systems often struggle to provide personalized assistance, contextual knowledge retrieval, and adaptive learning support.
+Traditional AI-powered learning systems often face several limitations:
 
-This project addresses these challenges through a multi-agent architecture that enables intelligent routing, tutoring, knowledge retrieval, and automated note generation.
+* Limited adaptability across different learning contexts
+* Inability to combine personal and global knowledge sources
+* Lack of interactive and conversational capabilities
+* Static response pipelines without intelligent routing
+
+This project addresses these challenges through a multi-agent AI framework capable of dynamic interaction, intelligent orchestration, and adaptive knowledge delivery.
+
+---
+
+## Novel Contribution
+
+This work introduces a multi-agent AI architecture for hybrid learning that integrates document-centric and open-domain knowledge retrieval with voice-enabled interaction.
+
+Unlike conventional RAG systems, the proposed framework incorporates dynamic agent orchestration, enabling:
+
+* Context-aware routing
+* Adaptive response generation
+* Modular scalability
+* Intelligent knowledge retrieval
+
+---
+
+## Key Innovations
+
+### Dynamic Multi-Agent Orchestration
+
+Specialized AI agents collaborate through a central coordination layer to intelligently process and route user requests.
+
+### Hybrid Learning Framework
+
+Supports both document-based learning and open-domain topic exploration within a unified platform.
+
+### Voice-Based Interaction
+
+Enables conversational learning through speech-enabled communication and response generation.
+
+### Context-Aware Response Generation
+
+Responses are dynamically adapted based on user intent, context, and knowledge source.
+
+### Modular and Scalable Architecture
+
+The framework allows agents to be extended, enhanced, or replaced without impacting overall system functionality.
 
 ---
 
@@ -24,66 +66,93 @@ This project addresses these challenges through a multi-agent architecture that 
 
 ### Core Components
 
-* Retrieval-Augmented Generation (RAG)
-* FAISS Vector Database
-* Large Language Models (LLMs)
-* Autonomous AI Agents
-* Voice-Based Interaction Layer
+#### Coordination Agent
+
+Acts as the central controller responsible for query classification, routing, and orchestration of specialized agents.
+
+#### Document Retrieval Agent
+
+Processes uploaded documents and retrieves relevant information using Retrieval-Augmented Generation (RAG).
+
+#### Topic Knowledge Agent
+
+Handles general topic-based queries using external and pre-trained knowledge sources.
+
+#### Summarization Agent
+
+Generates concise explanations, learning summaries, and structured outputs.
+
+#### Voice Interaction Agent
+
+Converts generated responses into speech and supports conversational interaction.
 
 ---
 
-## Multi-Agent Design
+## Workflow
 
-### Router Agent
-
-Responsible for understanding user intent and directing requests to the appropriate specialized agent.
-
-### Tutor Agent
-
-Provides personalized explanations, educational guidance, and contextual learning support.
-
-### Notes Agent
-
-Generates structured notes, summaries, and learning materials from retrieved content.
-
----
-
-## RAG Pipeline
-
-1. User Query
-2. Knowledge Retrieval
-3. Vector Search (FAISS)
-4. Context Augmentation
-5. LLM Processing
-6. Response Generation
-7. Voice Output
+1. User submits a query through text or voice
+2. Coordination Agent classifies the query intent
+3. Query is routed to the appropriate knowledge source
+4. Relevant information is retrieved using RAG
+5. Summarization Agent refines the response
+6. Voice Agent generates audio output
+7. Final response is delivered to the user
 
 ---
 
 ## Technology Stack
 
 * Python
-* FAISS
 * Retrieval-Augmented Generation (RAG)
-* Large Language Models
-* Speech Processing
+* FAISS Vector Database
+* Large Language Models (LLMs)
 * Agent-Based Architecture
+* Speech Processing
+* Voice Interaction Systems
 
 ---
 
-## Results
+## Key Features
 
-The project demonstrates how autonomous AI agents can improve knowledge retrieval, learner engagement, and personalized educational support in hybrid learning environments.
+* Multi-Agent Orchestration
+* Hybrid Knowledge Retrieval
+* Voice-Based Conversational Learning
+* Context-Aware Response Generation
+* Modular and Extensible Design
+
+---
+
+## Applications
+
+* AI-Based Tutoring Systems
+* Enterprise Knowledge Assistants
+* Personalized Learning Platforms
+* Corporate Training Systems
+* Employee Onboarding Solutions
+* Intelligent Learning Environments
+
+---
+
+## Research Alignment
+
+This work extends research in:
+
+* Human-Centered AI Systems
+* Generative AI for Learning
+* Retrieval-Augmented Generation
+* Multi-Agent AI Systems
+* AI-Driven Decision Intelligence
 
 ---
 
 ## Future Enhancements
 
-* Multi-modal learning support
-* Real-time collaboration agents
-* Learning analytics dashboard
-* Adaptive curriculum generation
-* Advanced voice interaction capabilities
+* Adaptive Learning Pathways
+* Skill Gap Detection
+* Reinforcement Learning-Based Feedback
+* Multi-Language Voice Interaction
+* Learning Analytics Dashboard
+* Advanced Agent Collaboration
 
 ---
 
