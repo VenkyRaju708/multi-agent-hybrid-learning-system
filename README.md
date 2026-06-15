@@ -12,6 +12,18 @@ The system enables users to learn from both user-provided documents and general 
 
 ---
 
+## Project Documentation
+
+📄 [Capstone Project Report](Agentic_AI_Voice_Capstone_Enhanced.pdf)
+
+---
+
+## Architecture Diagram
+
+![Multi-Agent Architecture](MultiAgent_Architecture_Diagram.png)
+
+---
+
 ## Problem Statement
 
 Traditional AI-powered learning systems often face several limitations:
@@ -95,7 +107,7 @@ Converts generated responses into speech and supports conversational interaction
 3. Query is routed to the appropriate knowledge source
 4. Relevant information is retrieved using RAG
 5. Summarization Agent refines the response
-6. Voice Agent generates audio output
+6. Voice Interaction Agent generates audio output
 7. Final response is delivered to the user
 
 ---
@@ -162,4 +174,10 @@ This work extends research in:
 
 PMP® | IEEE Senior Member | FRSA | FIETE
 
-🌐 https://venkatramanlabs.com
+🌐 Website: https://venkatramanlabs.com
+
+🔗 LinkedIn: https://linkedin.com/in/venkatraman-viswanathan-31985691
+
+📚 Google Scholar: https://scholar.google.com/citations?user=nkQ-kXwAAAAJ&hl=en
+
+🆔 ORCID: https://orcid.org/0009-0008-2889-7178
