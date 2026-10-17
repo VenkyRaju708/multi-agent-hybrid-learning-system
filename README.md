@@ -11,6 +11,7 @@
   <a href="https://venkatramanlabs.com"><img alt="Author" src="https://img.shields.io/badge/Author-Venkatraman_Viswanathan-0b1430?style=flat-square"></a>
   <a href="https://scholar.google.com/citations?user=nkQ-kXwAAAAJ&hl=en"><img alt="Google Scholar" src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white"></a>
   <a href="https://orcid.org/0009-0008-2889-7178"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white"></a>
+  <a href="https://doi.org/10.5281/zenodo.23439410"><img alt="DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.23439410.svg"></a>
 </p>
 
 ---
@@ -29,7 +30,7 @@ The system enables users to learn from both user-provided documents and general 
 
 ## Project Documentation
 
-📄 [Capstone Project Report](Agentic_AI_Voice_Capstone_Enhanced.pdf)
+📄 [Capstone Project Report](Agentic_AI_Voice_Capstone_Enhanced.pdf) · Archived on Zenodo: [doi.org/10.5281/zenodo.23439410](https://doi.org/10.5281/zenodo.23439410)
 
 This repository contains the capstone report (Post Graduate Program in Generative AI & Machine Learning, April 2026) and the architecture diagram. Implementation code is not included.
 
