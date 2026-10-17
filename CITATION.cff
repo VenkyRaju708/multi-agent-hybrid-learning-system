@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you refer to this work, please cite it as below."
+title: "A Multi-Agent Voice-Based AI System for Hybrid Learning Using Retrieval-Augmented Generation (Capstone Report)"
+authors:
+  - family-names: "Viswanathan"
+    given-names: "Venkatraman"
+    orcid: "https://orcid.org/0009-0008-2889-7178"
+abstract: >-
+  Capstone project report (Post Graduate Program in Generative AI & Machine
+  Learning, April 2026) presenting the architecture and design of a
+  voice-based multi-agent AI system for hybrid learning. The proposed system
+  combines document-based Retrieval-Augmented Generation (RAG) using FAISS
+  with open-domain topic knowledge, coordinated by specialized agents for
+  routing, retrieval, summarization and voice interaction.
+keywords:
+  - multi-agent systems
+  - retrieval-augmented generation
+  - FAISS
+  - conversational AI
+  - voice AI
+  - hybrid learning
+  - intelligent tutoring systems
+version: "1.0.0"
+date-released: "2026-10-17"
+repository-code: "https://github.com/VenkyRaju708/multi-agent-hybrid-learning-system"
+url: "https://venkatramanlabs.com"
+license: CC-BY-4.0
