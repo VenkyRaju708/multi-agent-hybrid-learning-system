@@ -1,4 +1,19 @@
-# Multi-Agent Hybrid Learning System
+<h1 align="center">🎙️ Multi-Agent Hybrid Learning System</h1>
+<p align="center"><i>A voice-based multi-agent AI system for hybrid learning, built on RAG, FAISS and autonomous agents</i></p>
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img alt="RAG" src="https://img.shields.io/badge/RAG-Retrieval--Augmented_Generation-6366f1?style=flat-square">
+  <img alt="FAISS" src="https://img.shields.io/badge/FAISS-Vector_Search-1d4ed8?style=flat-square">
+  <img alt="Multi-Agent" src="https://img.shields.io/badge/Multi--Agent-Architecture-0f766e?style=flat-square">
+  <img alt="Voice" src="https://img.shields.io/badge/Voice-Interaction-e8504a?style=flat-square">
+</p>
+<p align="center">
+  <a href="https://venkatramanlabs.com"><img alt="Author" src="https://img.shields.io/badge/Author-Venkatraman_Viswanathan-0b1430?style=flat-square"></a>
+  <a href="https://scholar.google.com/citations?user=nkQ-kXwAAAAJ&hl=en"><img alt="Google Scholar" src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white"></a>
+  <a href="https://orcid.org/0009-0008-2889-7178"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white"></a>
+</p>
+
+---
 
 A Multi-Agent Voice-Based AI System for Hybrid Learning using Retrieval-Augmented Generation (RAG), FAISS, and Autonomous AI Agents.
 
