@@ -1,5 +1,5 @@
 <h1 align="center">🎙️ Multi-Agent Hybrid Learning System</h1>
-<p align="center"><i>A voice-based multi-agent AI system for hybrid learning, built on RAG, FAISS and autonomous agents</i></p>
+<p align="center"><i>Capstone research: architecture and design for a voice-based multi-agent learning system, using RAG, FAISS and autonomous agents</i></p>
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
   <img alt="RAG" src="https://img.shields.io/badge/RAG-Retrieval--Augmented_Generation-6366f1?style=flat-square">
@@ -31,6 +31,8 @@ The system enables users to learn from both user-provided documents and general 
 
 📄 [Capstone Project Report](Agentic_AI_Voice_Capstone_Enhanced.pdf)
 
+This repository contains the capstone report (Post Graduate Program in Generative AI & Machine Learning, April 2026) and the architecture diagram. Implementation code is not included.
+
 ---
 
 ## Architecture Diagram
@@ -52,9 +54,9 @@ This project addresses these challenges through a multi-agent AI framework capab
 
 ---
 
-## Novel Contribution
+## Proposed Approach
 
-This work introduces a multi-agent AI architecture for hybrid learning that integrates document-centric and open-domain knowledge retrieval with voice-enabled interaction.
+This project proposes a multi-agent AI architecture for hybrid learning that integrates document-centric and open-domain knowledge retrieval with voice-enabled interaction.
 
 Unlike conventional RAG systems, the proposed framework incorporates dynamic agent orchestration, enabling:
 
@@ -65,7 +67,7 @@ Unlike conventional RAG systems, the proposed framework incorporates dynamic age
 
 ---
 
-## Key Innovations
+## Key Design Elements
 
 ### Dynamic Multi-Agent Orchestration
 
@@ -162,7 +164,7 @@ Converts generated responses into speech and supports conversational interaction
 
 ## Research Alignment
 
-This work extends research in:
+This work relates to research in:
 
 * Human-Centered AI Systems
 * Generative AI for Learning
