@@ -21,6 +21,7 @@ keywords:
   - hybrid learning
   - intelligent tutoring systems
 version: "1.0.0"
+doi: "10.5281/zenodo.23439410"
 date-released: "2026-10-17"
 repository-code: "https://github.com/VenkyRaju708/multi-agent-hybrid-learning-system"
 url: "https://venkatramanlabs.com"
