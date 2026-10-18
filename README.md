@@ -11,7 +11,7 @@
   <a href="https://venkatramanlabs.com"><img alt="Author" src="https://img.shields.io/badge/Author-Venkatraman_Viswanathan-0b1430?style=flat-square"></a>
   <a href="https://scholar.google.com/citations?user=nkQ-kXwAAAAJ&hl=en"><img alt="Google Scholar" src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white"></a>
   <a href="https://orcid.org/0009-0008-2889-7178"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white"></a>
-  <a href="https://doi.org/10.5281/zenodo.23439410"><img alt="DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.23439410.svg"></a>
+  <a href="https://doi.org/10.5281/zenodo.23439409"><img alt="DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.23439409.svg"></a>
 </p>
 
 ---
@@ -30,15 +30,32 @@ The system enables users to learn from both user-provided documents and general 
 
 ## Project Documentation
 
-📄 [Capstone Project Report](Agentic_AI_Voice_Capstone_Enhanced.pdf) · Archived on Zenodo: [doi.org/10.5281/zenodo.23439410](https://doi.org/10.5281/zenodo.23439410)
+📄 [Capstone Project Report](Agentic_AI_Voice_Capstone_Enhanced.pdf) · Archived on Zenodo: [doi.org/10.5281/zenodo.23439409](https://doi.org/10.5281/zenodo.23439409)
 
-This repository contains the capstone report (Post Graduate Program in Generative AI & Machine Learning, April 2026) and the architecture diagram. Implementation code is not included.
+This repository contains the capstone report (Post Graduate Program in Generative AI & Machine Learning, April 2026; version 1.1 corrected October 2026 to document the prototype as built) and the architecture diagram. Implementation code is not included.
 
 ---
 
 ## Architecture Diagram
 
 ![Multi-Agent Architecture](MultiAgent_Architecture_Diagram.png)
+
+---
+
+## Implementation Status (prototype, April 2026)
+
+The diagram shows the five-agent conceptual design. The prototype implemented part of it:
+
+| Component | Prototype implementation | Status |
+|---|---|---|
+| Coordination | Rule: Document mode if a PDF is uploaded, otherwise Topic mode | Rule-based; LLM intent routing planned |
+| Document retrieval | pypdf, 500-word chunks, all-MiniLM-L6-v2 embeddings, FAISS top-3 | Implemented |
+| Topic knowledge | Llama 3 (via Ollama) tutor agent without document context | Implemented (shared agent) |
+| Summarization | Llama 3 notes step | Implemented |
+| Voice | pyttsx3 spoken output on the host; text input only | Output implemented; speech input planned |
+| Interface | Streamlit | Implemented |
+
+No experimental evaluation has been carried out yet.
 
 ---
 
@@ -80,11 +97,11 @@ Supports both document-based learning and open-domain topic exploration within a
 
 ### Voice-Based Interaction
 
-Enables conversational learning through speech-enabled communication and response generation.
+Spoken output of each answer (pyttsx3) in the prototype; speech input is planned.
 
 ### Context-Aware Response Generation
 
-Responses are dynamically adapted based on user intent, context, and knowledge source.
+Planned: responses adapted to user intent and conversation context. The prototype answers each query independently.
 
 ### Modular and Scalable Architecture
 
@@ -98,7 +115,7 @@ The framework allows agents to be extended, enhanced, or replaced without impact
 
 #### Coordination Agent
 
-Acts as the central controller responsible for query classification, routing, and orchestration of specialized agents.
+Acts as the central controller responsible for routing and orchestration of specialized agents. In the prototype, routing is rule-based (PDF uploaded: Document mode; otherwise Topic mode); LLM-based intent classification is planned.
 
 #### Document Retrieval Agent
 
@@ -106,7 +123,7 @@ Processes uploaded documents and retrieves relevant information using Retrieval-
 
 #### Topic Knowledge Agent
 
-Handles general topic-based queries using external and pre-trained knowledge sources.
+Handles general topic-based queries using a pre-trained LLM (prototype: the same Llama 3 tutor agent, without document context).
 
 #### Summarization Agent
 
@@ -114,15 +131,15 @@ Generates concise explanations, learning summaries, and structured outputs.
 
 #### Voice Interaction Agent
 
-Converts generated responses into speech and supports conversational interaction.
+Converts generated responses into speech (prototype: pyttsx3, offline). Speech input and conversation history are planned.
 
 ---
 
 ## Workflow
 
-1. User submits a query through text or voice
-2. Coordination Agent classifies the query intent
-3. Query is routed to the appropriate knowledge source
+1. User submits a text query and optionally uploads a PDF (voice input planned)
+2. Coordination selects the mode (prototype: PDF uploaded means Document mode, otherwise Topic mode)
+3. Query is routed to the matching agent
 4. Relevant information is retrieved using RAG
 5. Summarization Agent refines the response
 6. Voice Interaction Agent generates audio output
@@ -137,8 +154,10 @@ Converts generated responses into speech and supports conversational interaction
 * FAISS Vector Database
 * Large Language Models (LLMs)
 * Agent-Based Architecture
-* Speech Processing
-* Voice Interaction Systems
+* Llama 3 via Ollama
+* Sentence Transformers (all-MiniLM-L6-v2)
+* pyttsx3 text-to-speech
+* Streamlit
 
 ---
 
@@ -146,8 +165,7 @@ Converts generated responses into speech and supports conversational interaction
 
 * Multi-Agent Orchestration
 * Hybrid Knowledge Retrieval
-* Voice-Based Conversational Learning
-* Context-Aware Response Generation
+* Spoken answers (text-to-speech)
 * Modular and Extensible Design
 
 ---
