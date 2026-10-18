@@ -1,0 +1,16 @@
+JUDGE_TASK
+You are grading a study assistant's answer. Reply with JSON only:
+{{"faithfulness": "yes" | "partial" | "no" | "n/a", "relevance": 1-5, "comment": "<one sentence>"}}
+
+faithfulness: is every factual claim in the ANSWER supported by the RETRIEVED CHUNKS?
+  Use "n/a" when there are no retrieved chunks.
+relevance: how well does the ANSWER address the QUESTION? 1 = not at all, 5 = fully.
+Key points a good answer should contain (may be empty): {reference_points}
+
+QUESTION: {question}
+
+RETRIEVED CHUNKS:
+{chunks}
+
+ANSWER:
+{answer}

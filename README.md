@@ -32,7 +32,7 @@ The system enables users to learn from both user-provided documents and general 
 
 📄 [Capstone Project Report](Agentic_AI_Voice_Capstone_v1.1.pdf) · Archived on Zenodo: [doi.org/10.5281/zenodo.23439409](https://doi.org/10.5281/zenodo.23439409)
 
-This repository contains the capstone report (Post Graduate Program in Generative AI & Machine Learning, April 2026; version 1.1 corrected October 2026 to document the prototype as built) and the architecture diagram. Implementation code is not included.
+This repository contains the capstone report (Post Graduate Program in Generative AI & Machine Learning, April 2026; version 1.1 corrected October 2026 to document the prototype as built) and the architecture diagram. The [`v2/`](v2/) folder contains the version 2 implementation and its evaluation (October 2026); see [Version 2](#version-2-october-2026-implementation-and-evaluation) below.
 
 ---
 
@@ -55,7 +55,33 @@ The diagram shows the five-agent conceptual design. The prototype implemented pa
 | Voice | pyttsx3 spoken output on the host; text input only | Output implemented; speech input planned |
 | Interface | Streamlit | Implemented |
 
-No experimental evaluation has been carried out yet.
+No experimental evaluation was carried out on this prototype. Version 2, below, was evaluated.
+
+---
+
+## Version 2 (October 2026): implementation and evaluation
+
+The [`v2/`](v2/) folder holds the full source of version 2, its tests, and a 100-question evaluation with every raw output. Setup and run instructions are in [`v2/README.md`](v2/README.md).
+
+| Component | April 2026 prototype | Version 2 |
+|---|---|---|
+| Coordination | Rule: PDF uploaded means Document mode | Llama 3 few-shot intent classifier (document / topic / mixed), similarity fallback |
+| Answering | One tutor agent | Separate document, topic and merge agents; mixed mode for questions that need both |
+| Indexing | Re-indexed on every question | One FAISS index per document, cached by SHA-256; 50-word chunk overlap |
+| Voice | Spoken output on the host; text input only | Speech input with faster-whisper; spoken answer played in the browser |
+| Observability | None | Route, retrieved chunks with scores, and per-stage timings for every answer |
+
+**Evaluation results** (100 questions over two research papers: 40 document, 40 topic, 20 mixed):
+
+| Measure | Result |
+|---|---|
+| Routing accuracy | **94%** (94/100); 40% for always-document, always-topic and the April 2026 rule |
+| LLM-judge mean relevance (1–5) | 4.57 over 100 answers |
+| Human spot-check mean relevance, 20 answers | 3.40, against 4.20 from the judge on the same answers |
+| Human–judge agreement | 45% exact on relevance (75% within ±1); 50% on faithfulness |
+| Median end-to-end latency, CPU only | 135 s per question |
+
+Most low-rated document answers were caused by retrieval misses rather than generation errors. The evaluation used typed questions, so speech input was not measured. Full results: [`v2/eval/report_rescored/results.md`](v2/eval/report_rescored/results.md) (corrected report, V2) and [`v2/eval/report/`](v2/eval/report/) (original report, V1).
 
 ---
 

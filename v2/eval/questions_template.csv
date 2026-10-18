@@ -1,0 +1,7 @@
+id,question,type,expected_route,pdf_file,reference_points,notes
+EXAMPLE-D1,What are the three stages of the process described in section 2 of the document?,document,document,your_document.pdf,stage one name;stage two name;stage three name,EXAMPLE row - replace with a question about your own document
+EXAMPLE-D2,According to the document what is the main limitation the authors report?,document,document,your_document.pdf,the limitation as stated in the document,EXAMPLE row - replace with a question about your own document
+EXAMPLE-T1,What is the difference between supervised and unsupervised learning?,topic,topic,your_document.pdf,supervised uses labelled data;unsupervised finds structure without labels,EXAMPLE row - general question asked while a document is loaded
+EXAMPLE-T2,How does photosynthesis convert light into chemical energy?,topic,topic,your_document.pdf,light reactions produce ATP and NADPH;Calvin cycle fixes carbon,EXAMPLE row - general question asked while a document is loaded
+EXAMPLE-M1,Summarize the method in the document and explain how it compares to standard practice.,mixed,mixed,your_document.pdf,the document's method;how standard practice differs,EXAMPLE row - needs the document and general knowledge
+EXAMPLE-M2,Which definition does the document use for the key term and how do textbooks usually define it?,mixed,mixed,your_document.pdf,the document's definition;the usual textbook definition,EXAMPLE row - needs the document and general knowledge

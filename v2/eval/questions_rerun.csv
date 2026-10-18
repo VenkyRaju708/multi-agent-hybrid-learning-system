@@ -1,0 +1,6 @@
+id,question,type,expected_route,pdf_file,reference_points,notes
+D05,What significance threshold did the study set?,document,document,AI-Augmented_Decision_Intelligence_JISEM_2023.pdf,p < 0.005,JISEM 8(2) 2023
+D09,"What coefficient did DI adoption have in the multiple regression, and was it significant?",document,document,AI-Augmented_Decision_Intelligence_JISEM_2023.pdf,beta=0.44;p<0.001,JISEM 8(2) 2023
+T09,What is cosine similarity?,topic,topic,AI-Augmented_Decision_Intelligence_JISEM_2023.pdf,cosine of the angle between two vectors;dot product divided by product of norms;range -1 to 1,general knowledge; document loaded but not needed
+T30,What does the Pythagorean theorem state?,topic,topic,Generative_AI_Workforce_Planning_JISEM_2023.pdf,a^2 + b^2 = c^2;right triangle;c is the hypotenuse,general knowledge; document loaded but not needed
+M01,This paper sets its significance threshold at p < 0.005. Explain what a p-value means and how this threshold compares with the common 0.05.,mixed,mixed,AI-Augmented_Decision_Intelligence_JISEM_2023.pdf,paper uses p < 0.005;p-value = probability of data this extreme if the null is true;0.005 is ten times stricter than 0.05,needs the document and general knowledge

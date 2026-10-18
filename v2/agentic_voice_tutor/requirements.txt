@@ -1,0 +1,9 @@
+streamlit>=1.40
+faiss-cpu
+sentence-transformers
+pypdf
+ollama
+pyttsx3
+numpy
+faster-whisper
+pytest

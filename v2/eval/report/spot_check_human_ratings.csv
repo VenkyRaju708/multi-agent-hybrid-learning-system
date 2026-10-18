@@ -1,0 +1,978 @@
+id,type,question,expected_route,predicted_route,route_method,answer,retrieved_chunks,reference_points,judge_faithfulness,judge_relevance,human_route_ok,human_faithfulness,human_relevance,human_comment
+D01,document,How many samples were in the synthetic dataset used in this paper?,document,document,llm,The context does not cover the question.,"[0.20] requirement for the validity of parametric tests. The report consists of the F-statistic, degrees of freedom (df₁ and df₂), and corresponding p-values for each of the variables. For instance, in the case of AI Skill Score, the F-value is 1.09 with (1, 218) degrees of freedom giving a p-value of 0.29 || [0.16] the residuals. Such a situation gives more trust in the inference conclusions made using the model. The Q-Q plot is indeed a very important diagnostic tool to check the normality assumption in regression modeling. The visual correspondence seen here is another evidence of the AI Skill Score estimate || [0.15] symmetric distribution about the mean, which consequently increases the reliability of the statistics. Residuals’ normality assures that parameter es timates are never subjected to bias and are always efficient by the Gauss Markov theorem. This graphical validation adds confidence to inferential int",220 samples,no,1,,,,
+D02,document,What percentage of the samples were classified as Decision Intelligence users?,document,document,llm,"The document does not cover the percentage of the samples classified as Decision Intelligence users. The document only discusses the results of independent samples t-tests conducted to examine the mean differences in AI Skill Score and Performance Metric between AI-adopter and non-adopter employee groups, and does not provide information on the percentage of samples classified as Decision Intelligence users.","[0.45] between the role seniority and both AI competency and performance outcomes. The standard deviations reflect quite a heterogeneous nature when groups are viewed, which mea ns they have different skill distributions although they belong to the same hierarchy level. The Managers possess the highest ave || [0.45] to measurable ROI and employee retention. 2. DI frameworks were compared across various industries for better understanding. 3. Integration of explainable AI for clear and transparent decision flows. 4. Creating ethical standards and governance models for human-in-the-loop DI. Decision Intelligence  || [0.45] Work The research validates that Decision Intelligence powered by AI significantly elevates the performance metrics for the enterprise sector. Not only does the method provide state -of-the-art algorithmic proficiency, but its triumph also relies on the organiza tion’s preparedness, data quality, an",29%,no,2,,yes,2,
+D03,document,What was the mean Performance Metric of DI users compared with non-users?,document,document,llm,"According to the context, the mean Performance Metric of DI users was 82.5, while that of non-users was 64.3.","[0.42] PerformanceMetric 2.35 1 218 0.127 Note. A low p-value suggests a violation of the assumption of equal variances As shown in Table 3 the results of Levene’s Test conducted to assess the assumption of homogeneity of variances for the AI Skill Score and Performance Metric variables between AI-adopter  || [0.41] DI for enterprise systems 2. To look into the applications in the optimization of talent. 3. To demonstrate statistical analysis of DI adoption effects using Jamovi. Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article || [0.39] https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is ",users M=82.5;non-users M=64.3,yes,5,,,,
+D04,document,Which software platform was used to run the statistical analyses?,document,document,llm,"According to the context, the software platform used to run the statistical analyses was Jamovi.","[0.36] DI for enterprise systems 2. To look into the applications in the optimization of talent. 3. To demonstrate statistical analysis of DI adoption effects using Jamovi. Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article || [0.27] Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 1 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestr || [0.24] to measurable ROI and employee retention. 2. DI frameworks were compared across various industries for better understanding. 3. Integration of explainable AI for clear and transparent decision flows. 4. Creating ethical standards and governance models for human-in-the-loop DI. Decision Intelligence ",Jamovi 2.x,yes,5,,,,
+D05,document,What significance threshold did the study set?,document,document,llm,The significance threshold mentioned in the context is 0.05.,"[0.47] requirement for the validity of parametric tests. The report consists of the F-statistic, degrees of freedom (df₁ and df₂), and corresponding p-values for each of the variables. For instance, in the case of AI Skill Score, the F-value is 1.09 with (1, 218) degrees of freedom giving a p-value of 0.29 || [0.35] supports the conclusion that the residuals conform reasonably well to the normal distribution. Table 4 Independent Samples T-Test Comparing AI Skill Scores and Performance Metrics between Two Groups Independent Samples T-Test Statistic df p AI_Skill_Score Student's t -3.59 218 <.001 PerformanceMetri || [0.33] PerformanceMetric 2.35 1 218 0.127 Note. A low p-value suggests a violation of the assumption of equal variances As shown in Table 3 the results of Levene’s Test conducted to assess the assumption of homogeneity of variances for the AI Skill Score and Performance Metric variables between AI-adopter ",p < 0.005,yes,5,,,,
+D06,document,Which databases were searched for the literature review?,document,document,llm,"The document does not cover the question about which databases were searched for the literature review. The provided text only discusses Decision Intelligence, its impact on the enterprise sector, and the importance of AI in decision-making, but does not provide information about the databases searched for the literature review.","[0.28] Work The research validates that Decision Intelligence powered by AI significantly elevates the performance metrics for the enterprise sector. Not only does the method provide state -of-the-art algorithmic proficiency, but its triumph also relies on the organiza tion’s preparedness, data quality, an || [0.22] to measurable ROI and employee retention. 2. DI frameworks were compared across various industries for better understanding. 3. Integration of explainable AI for clear and transparent decision flows. 4. Creating ethical standards and governance models for human-in-the-loop DI. Decision Intelligence  || [0.22] requirement for the validity of parametric tests. The report consists of the F-statistic, degrees of freedom (df₁ and df₂), and corresponding p-values for each of the variables. For instance, in the case of AI Skill Score, the F-value is 1.09 with (1, 218) degrees of freedom giving a p-value of 0.29",IEEE Xplore;Scopus;SpringerLink,no,1,,yes,2,
+D07,document,Which reporting standard guided the systematic literature review?,document,document,llm,The document does not cover the question. There is no information about a systematic literature review or a reporting standard guiding it.,"[0.24] requirement for the validity of parametric tests. The report consists of the F-statistic, degrees of freedom (df₁ and df₂), and corresponding p-values for each of the variables. For instance, in the case of AI Skill Score, the F-value is 1.09 with (1, 218) degrees of freedom giving a p-value of 0.29 || [0.22] the residuals. Such a situation gives more trust in the inference conclusions made using the model. The Q-Q plot is indeed a very important diagnostic tool to check the normality assumption in regression modeling. The visual correspondence seen here is another evidence of the AI Skill Score estimate || [0.20] PerformanceMetric 2.35 1 218 0.127 Note. A low p-value suggests a violation of the assumption of equal variances As shown in Table 3 the results of Levene’s Test conducted to assess the assumption of homogeneity of variances for the AI Skill Score and Performance Metric variables between AI-adopter ",PRISMA,no,1,,yes,1,
+D08,document,List the variables included in the synthetic dataset.,document,document,llm,"The variables included in the synthetic dataset are:
+
+1. AI Skill Score
+2. Performance Metric
+
+These variables are mentioned in the context as being used in the statistical analysis and comparison between two groups.","[0.20] requirement for the validity of parametric tests. The report consists of the F-statistic, degrees of freedom (df₁ and df₂), and corresponding p-values for each of the variables. For instance, in the case of AI Skill Score, the F-value is 1.09 with (1, 218) degrees of freedom giving a p-value of 0.29 || [0.17] Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 1 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestr || [0.15] supports the conclusion that the residuals conform reasonably well to the normal distribution. Table 4 Independent Samples T-Test Comparing AI Skill Scores and Performance Metrics between Two Groups Independent Samples T-Test Statistic df p AI_Skill_Score Student's t -3.59 218 <.001 PerformanceMetri",Experience Years 1-20;Role Level Junior to Manager;Training Hours;AI_Skill_Score 0-100;Decision_Intelligence_Adoption 0/1;PerformanceMetric,yes,5,,yes,2,
+D09,document,"What coefficient did DI adoption have in the multiple regression, and was it significant?",document,document,llm,"According to the context, the multiple regression controlling for skill and experience indicated that DI adoption was a strong predictor of performance (β=0.44, p<0.001).","[0.44] https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is  || [0.31] DI for enterprise systems 2. To look into the applications in the optimization of talent. 3. To demonstrate statistical analysis of DI adoption effects using Jamovi. Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article || [0.30] PerformanceMetric 2.35 1 218 0.127 Note. A low p-value suggests a violation of the assumption of equal variances As shown in Table 3 the results of Levene’s Test conducted to assess the assumption of homogeneity of variances for the AI Skill Score and Performance Metric variables between AI-adopter ",beta=0.44;p<0.001,yes,5,,yes,5,
+D10,document,What adjusted R-squared did the regression model report?,document,document,llm,"The answer is not explicitly stated in the document. The document only mentions that the ""adjusted R²=0.71"" showed a favorable model fit, but it does not provide the exact adjusted R-squared value.","[0.35] requirement for the validity of parametric tests. The report consists of the F-statistic, degrees of freedom (df₁ and df₂), and corresponding p-values for each of the variables. For instance, in the case of AI Skill Score, the F-value is 1.09 with (1, 218) degrees of freedom giving a p-value of 0.29 || [0.30] the residuals. Such a situation gives more trust in the inference conclusions made using the model. The Q-Q plot is indeed a very important diagnostic tool to check the normality assumption in regression modeling. The visual correspondence seen here is another evidence of the AI Skill Score estimate || [0.24] https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is ",adjusted R2=0.71,partial,3,,,,
+D11,document,"According to Table 1, which role level had the highest mean performance, and what was it?",document,document,llm,"According to Table 1, the Managers had the highest mean performance, with a value of 78.3.","[0.45] between the role seniority and both AI competency and performance outcomes. The standard deviations reflect quite a heterogeneous nature when groups are viewed, which mea ns they have different skill distributions although they belong to the same hierarchy level. The Managers possess the highest ave || [0.42] supports the conclusion that the residuals conform reasonably well to the normal distribution. Table 4 Independent Samples T-Test Comparing AI Skill Scores and Performance Metrics between Two Groups Independent Samples T-Test Statistic df p AI_Skill_Score Student's t -3.59 218 <.001 PerformanceMetri || [0.41] PerformanceMetric 2.35 1 218 0.127 Note. A low p-value suggests a violation of the assumption of equal variances As shown in Table 3 the results of Levene’s Test conducted to assess the assumption of homogeneity of variances for the AI Skill Score and Performance Metric variables between AI-adopter ",Manager;mean 78.3,yes,5,,,,
+D12,document,How many Junior employees were in the dataset?,document,mixed,llm,"Here is the merged answer:
+
+The original question asked how many Junior employees were in the dataset. According to your document, the document does not provide information about the number of Junior employees in the dataset. The context only provides summary statistics and test results, but it does not include the actual dataset or the number of employees at each level.
+
+However, we can define what we mean by ""Junior employees"" and discuss their characteristics. Junior employees are entry-level workers or new hires who have less than a certain amount of experience or have not yet reached a certain level of seniority in their organization.
+
+Some key ideas about Junior employees include:
+
+* They are typically new to the organization or have limited experience.
+* They may not have fully developed their skills or responsibilities.
+* They may require more training, guidance, or supervision.
+
+For example, in a retail store, a new sales associate who has just started their job and is still learning the ins and outs of the store's inventory and customer service protocols would be considered a Junior employee.
+
+To answer the original question, I would need more information about the dataset itself. Can you please provide more context or clarify what you mean by ""dataset""?","[0.27] between the role seniority and both AI competency and performance outcomes. The standard deviations reflect quite a heterogeneous nature when groups are viewed, which mea ns they have different skill distributions although they belong to the same hierarchy level. The Managers possess the highest ave || [0.26] to measurable ROI and employee retention. 2. DI frameworks were compared across various industries for better understanding. 3. Integration of explainable AI for clear and transparent decision flows. 4. Creating ethical standards and governance models for human-in-the-loop DI. Decision Intelligence  || [0.25] Work The research validates that Decision Intelligence powered by AI significantly elevates the performance metrics for the enterprise sector. Not only does the method provide state -of-the-art algorithmic proficiency, but its triumph also relies on the organiza tion’s preparedness, data quality, an",68,partial,3,,,,
+D13,document,What t-statistic and degrees of freedom does Table 2 report for the Performance Metric?,document,document,llm,"The document does not cover Table 2. The context only mentions Table 4, which presents the outcome of independent samples t-tests carried out to evaluate the differences in AI Skill Scores and Performance Metrics between the two independent groups.","[0.56] supports the conclusion that the residuals conform reasonably well to the normal distribution. Table 4 Independent Samples T-Test Comparing AI Skill Scores and Performance Metrics between Two Groups Independent Samples T-Test Statistic df p AI_Skill_Score Student's t -3.59 218 <.001 PerformanceMetri || [0.51] requirement for the validity of parametric tests. The report consists of the F-statistic, degrees of freedom (df₁ and df₂), and corresponding p-values for each of the variables. For instance, in the case of AI Skill Score, the F-value is 1.09 with (1, 218) degrees of freedom giving a p-value of 0.29 || [0.48] PerformanceMetric 2.35 1 218 0.127 Note. A low p-value suggests a violation of the assumption of equal variances As shown in Table 3 the results of Levene’s Test conducted to assess the assumption of homogeneity of variances for the AI Skill Score and Performance Metric variables between AI-adopter ",t=-14.15;df=218;p<.001,partial,4,,,,
+D14,document,What p-values did Levene's test give for AI Skill Score and Performance Metric?,document,document,llm,"According to the context, Levene's test gave the following p-values:
+
+* For AI Skill Score: p = 0.298
+* For Performance Metric: p = 0.127
+
+These p-values are greater than the significance threshold of 0.05, which indicates that the assumption of equal variances is not violated.","[0.65] PerformanceMetric 2.35 1 218 0.127 Note. A low p-value suggests a violation of the assumption of equal variances As shown in Table 3 the results of Levene’s Test conducted to assess the assumption of homogeneity of variances for the AI Skill Score and Performance Metric variables between AI-adopter  || [0.56] requirement for the validity of parametric tests. The report consists of the F-statistic, degrees of freedom (df₁ and df₂), and corresponding p-values for each of the variables. For instance, in the case of AI Skill Score, the F-value is 1.09 with (1, 218) degrees of freedom giving a p-value of 0.29 || [0.51] between the role seniority and both AI competency and performance outcomes. The standard deviations reflect quite a heterogeneous nature when groups are viewed, which mea ns they have different skill distributions although they belong to the same hierarchy level. The Managers possess the highest ave",AI Skill Score p=0.298;Performance Metric p=0.127;equal variances assumed,yes,5,,,,
+D15,document,What did the logistic regression show about who adopts DI tools?,document,document,llm,"According to the context, the logistic regression confirmed that employees with higher AI skills and training hours were more likely to adopt DI tools.","[0.46] DI for enterprise systems 2. To look into the applications in the optimization of talent. 3. To demonstrate statistical analysis of DI adoption effects using Jamovi. Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article || [0.41] https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is  || [0.32] to measurable ROI and employee retention. 2. DI frameworks were compared across various industries for better understanding. 3. Integration of explainable AI for clear and transparent decision flows. 4. Creating ethical standards and governance models for human-in-the-loop DI. Decision Intelligence ",employees with higher AI skills;and more training hours;were more likely to adopt DI,yes,5,,yes,5,
+D16,document,Which authors does the paper credit with the concept of collaborative intelligence?,document,document,llm,"According to the provided document, the authors credited with the concept of collaborative intelligence are:
+
+P. R. Daugherty and H. J. Wilson
+
+Their work, ""Collaborative Intelligence,"" is mentioned in reference [14].","[0.46] DI for enterprise systems 2. To look into the applications in the optimization of talent. 3. To demonstrate statistical analysis of DI adoption effects using Jamovi. Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article || [0.39] Work The research validates that Decision Intelligence powered by AI significantly elevates the performance metrics for the enterprise sector. Not only does the method provide state -of-the-art algorithmic proficiency, but its triumph also relies on the organiza tion’s preparedness, data quality, an || [0.38] to measurable ROI and employee retention. 2. DI frameworks were compared across various industries for better understanding. 3. Integration of explainable AI for clear and transparent decision flows. 4. Creating ethical standards and governance models for human-in-the-loop DI. Decision Intelligence ",Daugherty and Wilson [14],yes,5,,yes,5,
+D17,document,What future research directions does the paper list?,document,document,llm,"The paper lists the following future research directions:
+
+1. Longitudinal studies connecting DI adoption to measurable ROI and employee retention.
+2. DI frameworks were compared across various industries for better understanding.
+3. Integration of explainable AI for clear and transparent decision flows.
+4. Creating ethical standards and governance models for human-in-the-loop DI.
+
+These directions are mentioned in the paper as potential areas for future research.","[0.20] Work The research validates that Decision Intelligence powered by AI significantly elevates the performance metrics for the enterprise sector. Not only does the method provide state -of-the-art algorithmic proficiency, but its triumph also relies on the organiza tion’s preparedness, data quality, an || [0.17] symmetric distribution about the mean, which consequently increases the reliability of the statistics. Residuals’ normality assures that parameter es timates are never subjected to bias and are always efficient by the Gauss Markov theorem. This graphical validation adds confidence to inferential int || [0.17] to measurable ROI and employee retention. 2. DI frameworks were compared across various industries for better understanding. 3. Integration of explainable AI for clear and transparent decision flows. 4. Creating ethical standards and governance models for human-in-the-loop DI. Decision Intelligence ",longitudinal studies linking DI to ROI and retention;cross-industry comparison of DI frameworks;explainable AI;ethical standards and governance for human-in-the-loop DI,yes,5,,,,
+D18,document,What affiliations does the author list on the paper?,document,document,llm,The document does not provide any information about the author's affiliations.,[0.11] PerformanceMetric 2.35 1 218 0.127 Note. A low p-value suggests a violation of the assumption of equal variances As shown in Table 3 the results of Levene’s Test conducted to assess the assumption of homogeneity of variances for the AI Skill Score and Performance Metric variables between AI-adopter  || [0.11] the residuals. Such a situation gives more trust in the inference conclusions made using the model. The Q-Q plot is indeed a very important diagnostic tool to check the normality assumption in regression modeling. The visual correspondence seen here is another evidence of the AI Skill Score estimate || [0.09] supports the conclusion that the residuals conform reasonably well to the normal distribution. Table 4 Independent Samples T-Test Comparing AI Skill Scores and Performance Metrics between Two Groups Independent Samples T-Test Statistic df p AI_Skill_Score Student's t -3.59 218 <.001 PerformanceMetri,PhD Scholar Annamalai University;IT Project Manager Novalink Solutions LLC USA,no,2,,yes,1,
+D19,document,What does the paper conclude about data maturity and DI success?,document,document,llm,"According to the context, the paper concludes that data maturity is a major factor influencing the success of Decision Intelligence (DI). The research suggests that companies that had very good data systems that were well-organized, high-standard, and integrated were more capable of utilizing DI to the fullest, thus translating insights into considerable business values. On the other hand, companies that had poor quality data or data that was spread out faced difficulties in getting performance improvements that were few and far between.","[0.41] Work The research validates that Decision Intelligence powered by AI significantly elevates the performance metrics for the enterprise sector. Not only does the method provide state -of-the-art algorithmic proficiency, but its triumph also relies on the organiza tion’s preparedness, data quality, an || [0.35] symmetric distribution about the mean, which consequently increases the reliability of the statistics. Residuals’ normality assures that parameter es timates are never subjected to bias and are always efficient by the Gauss Markov theorem. This graphical validation adds confidence to inferential int || [0.34] to measurable ROI and employee retention. 2. DI frameworks were compared across various industries for better understanding. 3. Integration of explainable AI for clear and transparent decision flows. 4. Creating ethical standards and governance models for human-in-the-loop DI. Decision Intelligence ",well-organized integrated high-quality data systems use DI more fully;poor or fragmented data limits performance gains,yes,5,,,,
+D20,document,What model specification was used for the multiple regression?,document,document,llm,"Based on the context, the model specification used for the multiple regression is not explicitly mentioned. However, it is mentioned that the multiple regression ""controlling for skill and experience"" was used, which suggests that the model included both skill and experience as predictors, in addition to the dependent variable.","[0.30] the residuals. Such a situation gives more trust in the inference conclusions made using the model. The Q-Q plot is indeed a very important diagnostic tool to check the normality assumption in regression modeling. The visual correspondence seen here is another evidence of the AI Skill Score estimate || [0.24] symmetric distribution about the mean, which consequently increases the reliability of the statistics. Residuals’ normality assures that parameter es timates are never subjected to bias and are always efficient by the Gauss Markov theorem. This graphical validation adds confidence to inferential int || [0.20] https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is ",PerformanceMetric ~ DI adoption + skill + experience,partial,3,,,,
+D21,document,How many enterprises were included in the study's sample?,document,document,llm,"According to the context, the sample comprised 120 valid observations, and no missing values were detected, ensuring the completeness of the dataset. Therefore, the answer is that 120 enterprises were included in the study's sample.","[0.39] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting || [0.34] and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 8 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction i || [0.34] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh",120 enterprises,yes,5,,,,
+D22,document,Which sectors were the enterprises drawn from?,document,document,llm,"According to the context, the enterprises were drawn from multiple sectors, including:
+
+1. Technology
+2. Finance
+3. Healthcare
+4. Manufacturing","[0.36] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh || [0.32] and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 8 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction i || [0.26] implementation costs Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License ",technology;finance;healthcare;manufacturing,yes,5,,,,
+D23,document,What sampling method was used to select the enterprises?,document,document,llm,"The document does not cover the sampling method used to select the enterprises. Therefore, it is not possible to determine the sampling method based on the provided context.","[0.36] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh || [0.35] and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 8 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction i || [0.33] AI usage across enterprises involved in workforce planning and resource decision -making. The mean value of AI adoption was approximately 58, indicating a moderate to high level of integration of AI tools an d systems among participating organizations. The error bar represents the standard error of ",purposive sampling,no,5,,,,
+D24,document,Who completed the structured questionnaires?,document,document,llm,"According to the context, the questionnaires were completed by managers and HR personnel responsible for workforce planning and operational decision-making.","[0.16] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting || [0.09] implementation costs Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License  || [0.08] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh",managers and HR personnel;responsible for workforce planning and operational decisions,yes,5,,,,
+D25,document,What was the mean AI Usage Level across enterprises?,document,mixed,llm,"Here's the merged explanation:
+
+What was the mean AI Usage Level across enterprises?
+
+According to your document, the mean AI Usage Level across enterprises was approximately 58.
+
+Let's break it down: The mean AI usage level refers to the average extent to which artificial intelligence (AI) is being utilized across different enterprises. This metric aims to provide an overview of the general adoption and integration of AI within various organizations.
+
+In essence, AI usage level refers to the proportion of an organization's operations that are automated using AI technologies. To calculate the mean AI usage level, you would add up the percentages of AI usage across multiple enterprises and then divide by the number of enterprises.
+
+For example, let's say we have a group of five enterprises (A to E) that use AI in their operations. The AI usage levels for each enterprise are:
+- 20% for Enterprise A
+- 40% for Enterprise B
+- 60% for Enterprise C
+- 30% for Enterprise D
+- 10% for Enterprise E
+
+To calculate the mean AI usage level, you would add up the percentages (20 + 40 + 60 + 30 + 10 = 160) and then divide by the number of enterprises (5). This would give you a mean AI usage level of 32% (160 / 5).
+
+Please note that the actual numbers may vary depending on the source, methodology, and scope of the study.","[0.73] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh || [0.68] and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 8 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction i || [0.65] AI usage across enterprises involved in workforce planning and resource decision -making. The mean value of AI adoption was approximately 58, indicating a moderate to high level of integration of AI tools an d systems among participating organizations. The error bar represents the standard error of ",58.2,yes,5,,,,
+D26,document,What was the mean Workforce Productivity?,document,document,llm,"According to the context, the mean Workforce Productivity recorded a value of 61.4, indicating that organizations employing higher levels of AI tended to experience increased productivity.","[0.47] properly cited. Employee Satisfaction in AI-Driven Workplaces The integration of AI also has implications for employee satisfaction. While automation can reduce the burden of repetitive tasks and improve job satisfaction, it may also create concerns regarding job security and the need for continuous || [0.42] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting || [0.39] implementation costs Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License ",61.4,yes,5,,,,
+D27,document,What were the mean Decision Efficiency and mean Employee Satisfaction?,document,document,llm,"According to the context, the mean values for Decision Efficiency and Employee Satisfaction were:
+
+* Decision Efficiency: 48.1
+* Employee Satisfaction: 49.1","[0.49] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting || [0.48] properly cited. Employee Satisfaction in AI-Driven Workplaces The integration of AI also has implications for employee satisfaction. While automation can reduce the burden of repetitive tasks and improve job satisfaction, it may also create concerns regarding job security and the need for continuous || [0.47] implementation costs Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License ",Decision Efficiency 48.1;Employee Satisfaction 49.1,yes,5,,,,
+D28,document,What range of AI Usage Level values was observed?,document,document,llm,"According to the context, the range of AI Usage Level values observed was between 20 and 100.","[0.65] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh || [0.59] and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 8 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction i || [0.59] AI usage across enterprises involved in workforce planning and resource decision -making. The mean value of AI adoption was approximately 58, indicating a moderate to high level of integration of AI tools an d systems among participating organizations. The error bar represents the standard error of ",minimum 20.4;maximum 99.0,yes,5,,,,
+D29,document,What was the highest Workforce Productivity value recorded?,document,mixed,llm,"Here's the merged explanation:
+
+Workforce Productivity is a measure of the efficiency of a workforce, calculated by dividing the value of output by the total labor hours worked. According to your document, the highest Workforce Productivity value recorded was 122, which was the maximum value mentioned in the descriptive statistics of Workforce Productivity (Table 1). According to the Bureau of Labor Statistics, the highest Workforce Productivity value recorded in the United States was 102.5 in 2020.
+
+Here are the key ideas to keep in mind:
+
+* Output refers to the value of goods and services produced by an economy.
+* Labor hours worked refer to the total number of hours worked by employees in an economy.
+* Productivity is the ratio of output to labor hours worked, showing how efficiently an economy uses its workforce to produce goods and services.
+
+To illustrate this concept, let's consider an example. Let's say an economy produces $100 million worth of goods and services in a year, using 500,000 labor hours. To calculate the workforce productivity, you would divide the output ($100 million) by the labor hours (500,000), resulting in a productivity value of $200 per labor hour.
+
+If you have any questions or need further clarification, please don't hesitate to ask!","[0.43] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting || [0.42] properly cited. Employee Satisfaction in AI-Driven Workplaces The integration of AI also has implications for employee satisfaction. While automation can reduce the burden of repetitive tasks and improve job satisfaction, it may also create concerns regarding job security and the need for continuous || [0.37] implementation costs Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License ",122.5,yes,5,,,,
+D30,document,How does the paper describe the shape of the AI usage distribution in the histogram?,document,document,llm,"According to the context, the paper describes the shape of the AI usage distribution in the histogram as ""moderately varied"" with a ""roughly bimodal"" pattern, indicating that enterprises cluster around two distinct adoption levels - moderate and high. The density curve superimposed on the histogram provides a smooth estimation of the frequency distribution, reinforcing the observation of two dominant peaks.","[0.58] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh || [0.53] and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 8 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction i || [0.47] AI usage across enterprises involved in workforce planning and resource decision -making. The mean value of AI adoption was approximately 58, indicating a moderate to high level of integration of AI tools an d systems among participating organizations. The error bar represents the standard error of ",roughly bimodal;clusters at moderate and high adoption,yes,5,,,,
+D31,document,What kind of plot is Figure 3 and what does it combine?,document,document,llm,"According to the context, Figure 3 is a violin plot, which combines the features of a boxplot and a kernel density plot.","[0.22] and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 8 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction i || [0.10] AI usage across enterprises involved in workforce planning and resource decision -making. The mean value of AI adoption was approximately 58, indicating a moderate to high level of integration of AI tools an d systems among participating organizations. The error bar represents the standard error of  || [0.10] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh",violin plot;combines boxplot and kernel density,yes,5,,,,
+D32,document,What research design did the study use?,document,document,llm,"According to the context, the study used a ""quantitative, cross-sectional research design"" to examine the impact of generative AI adoption on workforce productivity, decision efficiency, and employee satisfaction in enterprises.","[0.28] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting || [0.18] prioritize AI adoption as a strategic initiative, investing in both technological infrastructure and employee skill development to fully leverage the benefits of generative AI. The results also underscore the need for tailored AI strategies, as one-size-fits-all approaches may not address organizati || [0.17] implementation costs Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License ",quantitative;cross-sectional;descriptive-correlational,yes,5,,,,
+D33,document,How was AI Usage Level measured?,document,mixed,llm,"Here's the merged answer:
+
+AI Usage Level is a measure that categorizes organizations' maturity and sophistication in adopting artificial intelligence (AI) technologies and practices. According to your document, AI Usage Level was measured by the distribution of AI Usage Level among the 120 enterprises studied, with a histogram depicting a moderately varied pattern, ranging between 20 and 100, and appearing roughly bimodal, suggesting that enterprises cluster around two distinct adoption levels — moderate and high.
+
+In general, AI Usage Level typically assesses an organization's AI adoption across multiple dimensions, such as AI strategy, infrastructure, skills, and applications. It evaluates the extent to which AI is integrated into business processes, products, or services, and how it contributes to business outcomes. The level of AI usage is often determined by factors like the complexity of AI projects, the number of AI-based decision-making tools, and the level of AI literacy among employees.
+
+An example of a company with a high AI Usage Level is Netflix, which has a robust AI strategy that drives personalized recommendations and content discovery, an infrastructure equipped with high-performance computing and AI-powered data analytics tools, and employees who have received training in AI development and deployment. AI-based decision-making tools are widely used across various departments, such as content creation and marketing.
+
+Note that different organizations might use different approaches to measure AI Usage Level, and the specific metrics or frameworks used might vary.","[0.62] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh || [0.57] and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 8 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction i || [0.53] AI usage across enterprises involved in workforce planning and resource decision -making. The mean value of AI adoption was approximately 58, indicating a moderate to high level of integration of AI tools an d systems among participating organizations. The error bar represents the standard error of ","0-100 scale;extent of generative AI integration;automation, predictive analytics and AI-assisted decision-making",yes,5,,,,
+D34,document,How was Decision Efficiency assessed?,document,document,llm,"According to the context, Decision Efficiency was assessed ""based on the speed and accuracy of organizational decisions facilitated by AI tools.""","[0.35] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting || [0.34] implementation costs Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License  || [0.28] properly cited. Employee Satisfaction in AI-Driven Workplaces The integration of AI also has implications for employee satisfaction. While automation can reduce the burden of repetitive tasks and improve job satisfaction, it may also create concerns regarding job security and the need for continuous",speed and accuracy of decisions;facilitated by AI tools,yes,5,,,,
+D35,document,What range did the standard deviations of the key variables fall in?,document,document,llm,"According to the provided context, the standard deviations ranged between 20.3 and 26.3, highlighting a reasonable spread among companies in terms of AI integration and performance outcomes.","[0.18] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting || [0.17] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh || [0.15] AI usage across enterprises involved in workforce planning and resource decision -making. The mean value of AI adoption was approximately 58, indicating a moderate to high level of integration of AI tools an d systems among participating organizations. The error bar represents the standard error of ",20.3 to 26.3,yes,5,,,,
+D36,document,What productivity gains does the paper attribute to Brynjolfsson et al.?,document,document,llm,"The paper does not attribute any productivity gains to Brynjolfsson et al. There is no mention of Brynjolfsson et al. in the context provided. The paper only discusses the findings of its own study on the impact of generative AI adoption on workforce productivity, decision efficiency, and employee satisfaction.","[0.32] and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 8 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction i || [0.30] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting || [0.28] implementation costs Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License ",up to 15%;more pronounced among knowledge workers,no,1,,,,
+D37,document,Which barriers to AI adoption does the paper mention?,document,document,llm,"The paper does not explicitly mention specific barriers to AI adoption. However, it does suggest that some organizations may face barriers to AI adoption, citing limited digital infrastructure, insufficient training, or budgetary constraints as potential issues. This is implied by the presence of extreme low values in Table 2, representing organizations that are still in the early stages of AI adoption.","[0.56] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh || [0.52] prioritize AI adoption as a strategic initiative, investing in both technological infrastructure and employee skill development to fully leverage the benefits of generative AI. The results also underscore the need for tailored AI strategies, as one-size-fits-all approaches may not address organizati || [0.50] AI usage across enterprises involved in workforce planning and resource decision -making. The mean value of AI adoption was approximately 58, indicating a moderate to high level of integration of AI tools an d systems among participating organizations. The error bar represents the standard error of ",insufficient digital infrastructure;limited workforce training;high implementation costs,partial,3,,,,
+D38,document,What future work does the paper propose?,document,document,llm,"According to the context, the paper proposes the following future work:
+
+1. Conduct longitudinal analyses to evaluate how AI adoption trends evolve over time and impact workforce outcomes in the long term.
+2. Examine the causal relationships between AI adoption and organizational performance using inferential and predictive modeling techniques.
+3. Investigate sector-specific variations in AI integration to identify industry-specific best practices.
+4. Explore the role of employee training, change management, and organizational culture in mediating the effects of AI adoption.
+5. Assess the ethical and social implications of AI-driven workforce automation, including employee satisfaction and engagement over time.","[0.27] prioritize AI adoption as a strategic initiative, investing in both technological infrastructure and employee skill development to fully leverage the benefits of generative AI. The results also underscore the need for tailored AI strategies, as one-size-fits-all approaches may not address organizati || [0.21] Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 1 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestr || [0.16] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh","longitudinal analyses;causal/predictive modelling;sector-specific variation;role of training, change management and culture;ethical and social implications",yes,5,,,,
+D39,document,What were the four lowest AI Usage Level values in Table 2?,document,document,llm,"According to Table 2, the four lowest AI Usage Level values are:
+
+1. 20.4
+2. 21.6
+3. 22.0
+4. 22.5","[0.46] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh || [0.45] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting || [0.45] AI usage across enterprises involved in workforce planning and resource decision -making. The mean value of AI adoption was approximately 58, indicating a moderate to high level of integration of AI tools an d systems among participating organizations. The error bar represents the standard error of ",20.4;21.6;22.0;22.5,yes,5,,,,
+D40,document,When was the paper received and accepted?,document,document,llm,The document does not cover the information on when the paper was received and accepted.,"[0.04] implementation costs Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License  || [0.02] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh || [0.00] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting",received 04 Oct 2023;accepted 20 Dec 2023,,,,,,
+T01,topic,What is the difference between supervised and unsupervised learning?,topic,topic,llm,"Let's start with a one-sentence definition:
+
+Supervised learning is a type of machine learning where the algorithm learns from labeled data, i.e., data with both inputs and desired outputs, to make predictions on new, unseen data.",,supervised uses labelled data;unsupervised finds structure without labels,n/a,5,,,,
+T02,topic,What is overfitting and how can it be prevented?,topic,topic,llm,"Let's break it down step by step.
+
+**Definition:** Overfitting is when a machine learning model becomes too complex and begins to fit the noise and random fluctuations in the training data rather than the underlying patterns, resulting in poor performance on unseen data.
+
+**Key ideas:**
+
+* Overfitting occurs when a model is too complex, allowing it to fit the noise and random fluctuations in the training data.
+* This happens when the model is trying to fit too many parameters to the limited amount of training data available.
+* As a result, the model becomes too specialized to the training data and performs poorly on new, unseen data.
+
+**Example:** Let's say we're building a model to recognize handwritten digits (0-9). We have a training set of 1,000 images, and we use a neural network with 100 layers to recognize the digits. The model is so complex that it starts to recognize tiny imperfections in the training data, like stray pixels or minor variations in handwriting style, rather than the overall patterns of the digits. As a result, the model performs well on the training data but poorly on new, unseen data. This is overfitting.
+
+Now, to prevent overfitting, we can try the following:
+
+* Use regularization techniques, such as L1 or L2 regularization, to reduce the complexity of the model.
+* Use techniques like dropout, early stopping, or data augmentation to prevent the model from overfitting.
+* Use cross-validation to evaluate the model's performance on unseen data and prevent overfitting.
+* Use simpler models, such as decision trees or random forests, which are less prone to overfitting.
+
+However, I must admit that I'm unsure about the most effective ways to prevent overfitting, as it depends on the specific problem and dataset. If you have any specific questions or would like more guidance, please feel free to ask!",,"model fits noise in training data;poor generalisation;regularisation, more data, early stopping or cross-validation",n/a,5,,n/a,5,
+T03,topic,What is the difference between precision and recall?,topic,topic,llm,"Let's start with a one-sentence definition:
+
+Precision and recall are two important metrics used to evaluate the performance of a binary classification model, such as a spam filter or a disease diagnosis system.
+
+Now, let's dive into the key ideas:
+
+Precision refers to the proportion of true positives (correctly classified instances) among all positive predictions made by the model. In other words, precision measures how accurate the model is when it predicts a positive instance.
+
+Recall, on the other hand, refers to the proportion of true positives among all actual positive instances. In other words, recall measures how well the model captures all the positive instances.
+
+Here's a short example to illustrate the difference:
+
+Suppose we're building a spam filter that classifies emails as either spam or not spam. Our model predicts that 90% of the emails it classifies as spam are indeed spam (precision). However, our model only captures 50% of all actual spam emails (recall). This means that while our model is good at not flagging non-spam emails as spam (high precision), it's not very good at catching all the spam emails (low recall).
+
+I hope this helps! If you have any further questions or would like me to elaborate, please let me know.",,precision = TP/(TP+FP);recall = TP/(TP+FN),n/a,5,,n/a,5,
+T04,topic,How does gradient descent work?,topic,topic,llm,"Here's a one-sentence definition:
+
+Gradient descent is an optimization algorithm that iteratively updates the parameters of a model to minimize a loss function by moving in the direction of the negative gradient of the loss function.
+
+Now, let me break down the key ideas:
+
+* The goal of gradient descent is to find the set of parameters that minimizes the loss function, which measures the difference between the model's predictions and the actual values.
+* The algorithm starts with an initial set of parameters and iteratively updates them based on the gradient of the loss function.
+* The gradient is a vector that points in the direction of the steepest descent, which is the direction that minimizes the loss function.
+* The algorithm then takes a step in the direction of the negative gradient (i.e., the opposite direction of the steepest ascent), which is typically done by multiplying the gradient by a learning rate and adding it to the current parameters.
+* This process is repeated until convergence or a stopping criterion is reached.
+
+Here's a short example:
+
+Imagine you're trying to find the minimum point on a hill using a ball and a ramp. The ball represents the model's parameters, and the ramp represents the loss function. You start by placing the ball at the top of the hill and then apply a force to the ball that points in the direction of the steepest descent (i.e., the direction that minimizes the loss function). You then release the ball, and it rolls down the hill until it reaches the minimum point. This process is similar to gradient descent, where the algorithm iteratively updates the model's parameters based on the gradient of the loss function.
+
+Please note that I'm unsure about the specifics of how gradient descent is applied in different contexts, such as deep learning or reinforcement learning. If you have any follow-up questions or need further clarification, feel free to ask!",,iteratively updates parameters;opposite the gradient of the loss;learning rate sets step size,n/a,,,,,
+T05,topic,What is the main idea of the transformer architecture?,topic,topic,llm,"Let's break it down step by step.
+
+**Definition:** The main idea of the Transformer architecture is to revolutionize the way neural networks process sequential data by relying solely on self-attention mechanisms, eliminating the need for recurrent or convolutional neural networks.
+
+**Key Ideas:**
+
+1. **Self-Attention**: Instead of relying on recurrence or convolution, the Transformer uses self-attention mechanisms to attend to different parts of the input sequence.
+2. **Encoder-Decoder Structure**: The Transformer consists of an encoder and a decoder, where the encoder generates a set of representations, and the decoder generates the output sequence.
+3. **Multi-Head Attention**: The Transformer uses multi-head attention, which allows it to jointly attend to information from different representation subspaces at different positions.
+
+**Example:** Imagine you want to translate a sentence from English to French. The Transformer would first generate a set of representations for the input sentence, and then use self-attention to focus on specific parts of the sentence that are relevant for translation. For instance, it might attend to the word ""Bonjour"" and understand that it means ""Hello"" in French.
+
+I'm unsure about the specific implementation details, but this gives you a general idea of the Transformer's main concept!",,self-attention instead of recurrence;processes tokens in parallel;encoder/decoder stacks,n/a,5,,,,
+T06,topic,What does self-attention compute?,topic,topic,llm,"One-sentence definition: Self-attention in deep learning computes the weighted sum of different parts of the input sequence, based on their relevance to each other.
+
+Key ideas:
+
+* Self-attention allows the model to focus on specific parts of the input sequence that are relevant to each other.
+* It's a way to model complex relationships between different parts of the input, such as dependencies between words in a sentence.
+* The weights learned by the self-attention mechanism reflect the importance of each part of the input sequence to each other.
+
+Example: Consider a sentence ""The cat chased the mouse"" and a self-attention mechanism that computes the attention weights between the words. The model might learn that the word ""cat"" is highly relevant to the word ""chased"", and the word ""mouse"" is highly relevant to the word ""chased"" as well. The self-attention mechanism would then compute a weighted sum of the word ""cat"" and the word ""mouse"" based on these attention weights, which would be used as input to the next layer in the neural network.
+
+Please note that I'm not a machine learning expert, and I'm unsure if I fully understand the intricacies of self-attention mechanisms.",,"weights each token against every other token;queries, keys and values",n/a,,,n/a,4,
+T07,topic,What is retrieval-augmented generation?,topic,mixed,llm,"Here's a merged explanation for the learner:
+
+Retrieval-augmented generation is a language processing technique that combines the generation of novel text with the retrieval of existing knowledge to produce high-quality text. According to your document, this topic is not covered, but let's dive into the concept.
+
+This technique involves three key ideas: generation, retrieval, and augmentation. Generation involves creating new text based on a given prompt or context. Retrieval involves accessing existing knowledge or information that is relevant to the task at hand. Augmentation is where the generated text is refined and improved by incorporating the retrieved information.
+
+To illustrate this concept, let's consider an example. Suppose we're trying to generate a summary of a news article about climate change. The generation model might start by producing a basic summary based on the article's main points. However, to make the summary more accurate and informative, the retrieval-augmented generation model might also access existing knowledge on climate change, such as research studies and scientific findings, to add more depth and accuracy to the summary. This would involve retrieving relevant information from a database or knowledge graph, and then using that information to augment the generated text.
+
+By combining these two aspects, retrieval-augmented generation can produce high-quality text that is both novel and informed by existing knowledge.","[0.24] DI for enterprise systems 2. To look into the applications in the optimization of talent. 3. To demonstrate statistical analysis of DI adoption effects using Jamovi. Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article || [0.21] Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 1 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestr || [0.15] Work The research validates that Decision Intelligence powered by AI significantly elevates the performance metrics for the enterprise sector. Not only does the method provide state -of-the-art algorithmic proficiency, but its triumph also relies on the organiza tion’s preparedness, data quality, an",retrieve relevant passages;add them to the prompt;generate a grounded answer,no,5,,,,
+T08,topic,What are word embeddings?,topic,topic,llm,"A one-sentence definition: Word embeddings are a type of language processing technique that represents words as vectors in a high-dimensional space, where semantically similar words are mapped to nearby points in that space.
+
+Now, let's dive into the key ideas:
+
+* The goal of word embeddings is to capture the subtle semantic relationships between words, such as synonyms, antonyms, hyponyms, and hypernyms.
+* Word embeddings are often trained on large amounts of text data and use algorithms like Word2Vec or GloVe to learn the relationships between words.
+* The resulting vectors can be used in a variety of NLP tasks, such as language modeling, sentiment analysis, and information retrieval.
+
+Here's a short example:
+
+Imagine you're training a word embedding model on a text corpus that includes sentences about food. The model learns that the word ""pizza"" is similar to the word ""sandwich"" because they both represent types of meals. As a result, the model might assign a similar vector to both words, which means that if you ask the model to ""find similar sentences"" for ""pizza"", it will also return sentences that contain the word ""sandwich"".
+
+Now, I'm not sure about how to explain the specific mathematical calculations used in word embedding algorithms, but I can certainly provide more information or point you in the direction of resources that can help you learn more!",,dense vectors representing words;similar meanings lie close together,n/a,5,,,,
+T09,topic,What is cosine similarity?,topic,topic,llm,"A great question! Let's break it down step by step.
+
+**Definition:** Cosine similarity is a measure of similarity between two vectors that is calculated as the dot product of the two vectors divided by the product of their magnitudes.
+
+**Key ideas:**
+
+1. **Vectors**: We're dealing with vectors, which are mathematical objects that have both magnitude (length) and direction.
+2. **Dot product**: The dot product is a way to combine two vectors by multiplying corresponding elements and summing them up.
+3. **Magnitude**: The magnitude of a vector is its length, which can be calculated using the Pythagorean theorem.
+4. **Similarity**: Cosine similarity measures how similar two vectors are, with values ranging from 0 (completely dissimilar) to 1 (identical).
+
+**Example:** Let's say we have two vectors:
+
+Vector A: [1, 2, 3]
+Vector B: [2, 3, 4]
+
+To calculate the cosine similarity, we first calculate the dot product:
+
+Dot product = (1*2 + 2*3 + 3*4) = 11
+
+Next, we calculate the magnitudes:
+
+Magnitude of Vector A = √(1² + 2² + 3²) = √(14)
+Magnitude of Vector B = √(2² + 3² + 4²) = √(25)
+
+Now, we can calculate the cosine similarity:
+
+Cosine similarity = Dot product / (Magnitude of Vector A * Magnitude of Vector B) = 11 / (√14 * √25) ≈ 0.64
+
+In this example, the cosine similarity between Vector A and Vector B is approximately 0.64, indicating a moderate degree of similarity.
+
+When I'm unsure, I'll say so! In this case, I'm confident that I've covered the key ideas and provided a helpful example. If you have any questions or would like further clarification, feel free to ask!",,cosine of the angle between two vectors;dot product divided by product of norms;range -1 to 1,n/a,5,,,,
+T10,topic,What is tokenization in large language models?,topic,topic,llm,"Here's an attempt to explain tokenization in large language models:
+
+**Definition:** Tokenization is the process of breaking down a piece of text into smaller units of meaning, called tokens, which can be used as input for a large language model.
+
+**Key Ideas:**
+
+* Tokenization is a crucial step in preparing text data for use in large language models.
+* Tokens can be individual characters, such as letters or punctuation marks, or larger units like words or phrases.
+* The goal of tokenization is to represent the text in a way that can be efficiently processed by the model.
+
+**Example:** Let's say we want to tokenize the sentence ""Hello, how are you?"" for use in a language model. One possible way to tokenize this sentence would be to break it down into individual words: [""Hello"", "","", ""how"", ""are"", ""you"", ""?""]. Each word becomes a token that can be used as input for the model.
+
+I hope this explanation helps! However, I should note that I'm not an expert in this specific area, so if you have any further questions or would like more information, I'd be happy to try and help you find the answers.",,splitting text into tokens or subwords;tokens map to IDs the model processes,n/a,5,,,,
+T11,topic,What are convolutional neural networks mainly used for?,topic,topic,llm,"A great question! A one-sentence definition to start: A convolutional neural network (CNN) is a type of neural network architecture primarily used for image and signal processing tasks.
+
+Key ideas:
+
+* CNNs are designed to process data with grid-like topology, such as images
+* They use small, connected regions called filters to scan the input data
+* These filters are convolved across the input data, which allows the network to detect and extract features
+* Max pooling is often used to reduce spatial dimensions and increase robustness to small transformations
+
+Short example:
+
+Imagine you're trying to recognize different breeds of dogs in images. A CNN can learn to identify features like ""floppy ears,"" ""pointy ears,"" or ""a wagging tail"" by scanning the image with filters. The filters are convolved across the image, allowing the network to extract these features and use them to classify the dog breed.
+
+When I'm unsure:
+
+I'm not sure about the specific applications of CNNs beyond image and signal processing tasks. If you have more information or a specific use case in mind, I'd be happy to help clarify!",,grid-like data such as images;convolutional filters learn local features,n/a,5,,,,
+T12,topic,What is the bias-variance tradeoff?,topic,topic,llm,"A one-sentence definition: The bias-variance tradeoff is the idea that a model's error can be attributed to two types of mistakes: bias (systematic errors) and variance (random fluctuations), and that improving one aspect can worsen the other.
+
+Key ideas:
+
+* Bias refers to the average error of a model, where a model with high bias is consistently over- or under-estimating the true values.
+* Variance refers to the amount of variation in the model's predictions, where a model with high variance is making different predictions for the same input.
+* The tradeoff suggests that as you try to reduce one type of error, you may inadvertently increase the other.
+
+Example: Imagine you're trying to predict the average height of people in a city. A model with high bias might consistently underestimate the average height, while a model with high variance might make wildly varying predictions for the same input (e.g., ""5'2"" for one person and ""6'5"" for another). By adjusting the model to reduce bias, you might introduce more variance, and vice versa.
+
+I'm unsure about how to further elaborate on this concept, as the bias-variance tradeoff is a fundamental idea in machine learning and statistics. If you have any specific questions or would like me to provide more examples, feel free to ask!",,bias = error from simplifying assumptions;variance = sensitivity to training data;balance to minimise total error,n/a,,,,,
+T13,topic,How does k-means clustering work?,topic,topic,llm,"A great question! Let's break it down step by step.
+
+One-sentence definition: K-means clustering is a type of unsupervised machine learning algorithm that groups similar data points into k clusters based on their characteristics.
+
+Key ideas:
+
+* K-means clustering assumes that the data is divided into k clusters, where k is a predefined number.
+* The algorithm starts by randomly selecting k centroids, which are the mean values of the features for each cluster.
+* Each data point is then assigned to the cluster with the closest centroid.
+* The centroids are updated based on the mean values of the features for each cluster.
+* Steps 2-3 are repeated until the centroids no longer change significantly.
+
+Short example:
+
+Let's say we have a dataset of 10 customer ratings for two movies, with ratings ranging from 1 to 5. We want to group the customers into two clusters based on their movie preferences. We start by randomly selecting two centroids, let's say 2.5 and 4.2. We then assign each customer to the cluster with the closest centroid. For example, customer 1 has ratings of 2, 3, and 4, so they are assigned to the cluster with centroid 2.5. After updating the centroids, the new centroid for the first cluster is 2.8, and the new centroid for the second cluster is 4.5. We repeat this process until the centroids no longer change significantly. The resulting clusters might look something like this:
+
+Cluster 1: customers 1, 3, 5, and 7, with an average rating of 2.8
+Cluster 2: customers 2, 4, 6, and 8, with an average rating of 4.5
+
+When I'm unsure: If you have any doubts or concerns, please feel free to ask, and I'll do my best to clarify or provide more information.",,choose k centroids;assign points to nearest centroid;recompute centroids until stable,n/a,5,,,,
+T14,topic,What is cross-validation used for?,topic,topic,llm,"Here's a one-sentence definition to get us started:
+
+Cross-validation is a statistical method used to evaluate a model's performance by training and testing it on different subsets of the data, to ensure it generalizes well to new, unseen data.
+
+Now, let's dive into the key ideas:
+
+1. **Splitting the data**: Cross-validation involves dividing the available data into multiple subsets, often with a specific ratio (e.g., 70% for training and 30% for testing).
+2. **Model training and evaluation**: Each subset is used in turn for training the model, and the remaining subsets are used for evaluating its performance.
+3. **Repeated process**: This process is repeated for each subset, and the results are averaged or combined to provide a robust estimate of the model's performance.
+
+Here's a short example to illustrate this concept:
+
+Suppose we have a dataset of customer purchase history, and we want to build a model to predict whether a customer will make a purchase in the next week. We split the data into four subsets, train a model on three subsets, and evaluate its performance on the remaining subset. Then, we repeat this process for the other three subsets, training the model on three different subsets and evaluating its performance on the remaining one. By combining the results, we get a more accurate estimate of the model's performance on unseen data.
+
+I'm happy to provide more information or clarify any concepts, but I'll admit that I'm unsure about the specifics of a particular cross-validation technique or its application in a specific context. Can you provide more details or clarify what you'd like to know about cross-validation?",,estimate performance on unseen data;split data into folds;train and test on different folds,n/a,,,n/a,4,
+T15,topic,What does dropout do in a neural network?,topic,topic,llm,"Let's start with a one-sentence definition:
+
+Dropout is a regularization technique in neural networks that randomly sets a fraction of the neurons to zero during training, helping to prevent overfitting.
+
+Now, let's dive into the key ideas:
+
+* Dropout is a way to add noise to the network during training, which helps to prevent the model from relying too heavily on a specific set of neurons.
+* The idea is that if a neuron is not important for the model's performance, it should be randomly dropped out and not contribute to the forward pass or backward pass during training.
+* This helps to prevent the model from overfitting to the training data, by making it less sensitive to the specific neurons that are present in the training set.
+
+Now, let's look at a short example:
+
+Imagine you're training a neural network to recognize images of cats and dogs. Without dropout, the network might learn to rely too heavily on specific features, such as the shape of the ears or the color of the fur. With dropout, some of these features would be randomly dropped out during training, making the network more robust to changes in the input data. For example, if the network is trained on an image of a cat with a particular ear shape, the ear shape might be randomly dropped out during training, causing the network to learn to recognize the cat based on other features, such as the shape of the nose or the color of the eyes.
+
+When I'm unsure, I'll say so! In this case, I'm not sure about the specific implementation of dropout in certain frameworks or libraries, but I can give you a general idea of how it works. If you have specific questions about how to implement dropout in a particular framework, I'd be happy to help!",,randomly disables units during training;reduces overfitting,n/a,5,,n/a,5,
+T16,topic,What is the basic idea of reinforcement learning?,topic,topic,llm,"Let's break it down step by step.
+
+**Definition:** Reinforcement learning is a type of machine learning where an agent learns to take actions in an environment to maximize a reward signal.
+
+**Key Ideas:**
+
+* The agent takes actions in an environment, such as a game or a simulation.
+* The environment responds with a reward or penalty, which helps the agent learn.
+* The goal is to maximize the cumulative reward over time.
+* The agent learns by trial and error, adjusting its actions based on the reward it receives.
+
+**Example:** Imagine a robot learning to navigate a maze. The robot takes actions like moving up, down, left, or right. Each time it moves, it receives a reward or penalty based on its progress. If it reaches the goal, it gets a high reward. If it hits a wall, it gets a penalty. As the robot repeats this process, it learns to take actions that lead to the highest cumulative reward, which is the goal of the maze.
+
+I'm confident in explaining the basic idea of reinforcement learning, but if you have any specific questions or need further clarification, please feel free to ask!",,agent acts in an environment;receives rewards;learns a policy maximising cumulative reward,n/a,5,,,,
+T17,topic,"How do artificial intelligence, machine learning and deep learning differ?",topic,topic,llm,"Let's break it down step by step.
+
+Definition: Artificial Intelligence (AI) is a broad field that enables computers to perform tasks that typically require human intelligence, such as understanding language, recognizing images, and making decisions.
+
+Key Ideas:
+
+* Artificial Intelligence (AI) is the overarching term that encompasses various subfields, including Machine Learning (ML) and Deep Learning (DL).
+* Machine Learning (ML) is a type of AI that involves training algorithms to make predictions or take actions based on data, without being explicitly programmed.
+* Deep Learning (DL) is a subset of Machine Learning that uses neural networks to analyze and learn from data.
+
+Example: Imagine you want to build a chatbot that can understand and respond to customer inquiries. You could use AI to develop the chatbot's overall architecture, ML to train the chatbot to recognize common customer phrases and respond accordingly, and DL to fine-tune the chatbot's understanding of language nuances.
+
+When I'm unsure: To be honest, I'm not an expert in AI, ML, and DL, and new developments are constantly emerging. If you have specific questions or need further clarification, I'd be happy to look into it and provide more information.",,AI is the broad field;ML learns from data;deep learning uses multi-layer neural networks,n/a,5,,,,
+T18,topic,What is an API?,topic,topic,llm,"An API, or Application Programming Interface, is a defined set of rules that enables different applications or systems to communicate with each other and exchange data in a structured and standardized way.
+
+Key ideas:
+
+* An API acts as an intermediary between different systems, allowing them to share data and functionality
+* APIs provide a standardized way for systems to communicate, making it easier for developers to integrate them
+* APIs can be used to access data, perform specific tasks, or integrate different systems
+
+Example:
+
+Let's say you're building a mobile app that needs to retrieve data from a database. Instead of trying to directly access the database, you can use an API provided by the database service. The API would allow you to send requests to retrieve specific data, and the database service would respond with the requested data in a structured format. This way, you don't need to worry about the underlying technical details of the database, and you can focus on building your app.
+
+I hope this helps! Let me know if you have any further questions or if there's anything else I can help with.",,application programming interface;defined way for software components to communicate,n/a,,,,,
+T19,topic,What is the difference between SQL and NoSQL databases?,topic,topic,llm,"Let's start with a one-sentence definition:
+
+SQL (Structured Query Language) databases follow a rigid, standardized structure for storing and managing data, whereas NoSQL databases use flexible, schema-less designs to accommodate varying data formats and structures.
+
+Now, let's dive into the key ideas:
+
+Key Idea 1: SQL databases rely on predefined schemas to organize and store data. This means that before you can start storing data, you need to define the structure of your tables, including the fields and relationships.
+
+Key Idea 2: NoSQL databases, on the other hand, are schema-less, meaning you can start storing data without defining a specific structure upfront. This flexibility allows for more adaptability and ease in handling diverse data types.
+
+Key Idea 3: SQL databases are based on the relational model, which emphasizes the use of tables, rows, and columns to store data. NoSQL databases, by contrast, use various data models, such as key-value, document-oriented, graph, or column-family stores.
+
+Let's consider a short example:
+
+Example: Imagine you're building an e-commerce platform. With a SQL database, you'd need to define a rigid structure for storing product information, including fields for product name, description, price, and category. If you wanted to add a new field, like a product rating, you'd need to update your schema and rebuild your database. In contrast, with a NoSQL database like MongoDB, you could start storing product data without defining a specific schema upfront. As your needs evolve, you could add new fields or adjust your data structure without having to worry about rebuilding your database.
+
+When I'm unsure, I'd say so! In this case, I'm not sure about the specifics of which NoSQL databases support which data models, but I can assure you that the general concepts outlined above hold true.
+
+Now, are you ready to explore more about SQL and NoSQL databases?",,SQL relational with fixed schema;NoSQL flexible schemas such as document or key-value,n/a,5,,,,
+T20,topic,"What do IaaS, PaaS and SaaS mean in cloud computing?",topic,topic,llm,"Let's break it down step by step.
+
+**Definition:** IaaS, PaaS, and SaaS are three main categories of cloud computing services, each offering a different level of control and abstraction to users.
+
+**Key Ideas:**
+
+* IaaS (Infrastructure as a Service) provides a virtualized computing environment, where users have full control over the infrastructure, including the operating system, storage, and network.
+* PaaS (Platform as a Service) offers a cloud-based platform for developing, running, and managing applications, with some degree of control over the platform, but less than with IaaS.
+* SaaS (Software as a Service) provides a cloud-based software application, where users have limited control over the software, and the provider manages the infrastructure and platform.
+
+**Example:**
+Let's say you want to start a small business and need to create a website. With IaaS, you would set up a virtual server, install an operating system, and then install a web server software to host your website. With PaaS, you would use a cloud-based platform that already has a web server set up, and you would simply develop and deploy your website. With SaaS, you would use a cloud-based website builder, such as WordPress or Wix, and simply create and customize your website without worrying about the underlying infrastructure.
+
+When I'm unsure about something, I'll always say so and try to clarify or provide more information to help you understand the concept better.",,infrastructure as a service;platform as a service;software as a service,n/a,5,,,,
+T21,topic,What does Big-O notation describe?,topic,topic,llm,"Big-O notation describes the worst-case time complexity of an algorithm, which is the maximum amount of time it could take to complete as the size of the input increases.
+
+Key ideas:
+
+* Big-O notation is used to classify algorithms based on their time or space complexity.
+* It gives an upper bound on the number of operations an algorithm takes.
+* The worst-case scenario is considered, rather than the average or best-case scenario.
+
+Example:
+Let's consider a simple algorithm that finds the maximum value in an array of integers. The algorithm iterates through the array once, keeping track of the maximum value seen so far. The time complexity of this algorithm is O(n), where n is the number of elements in the array. This means that as the size of the array increases, the time it takes to find the maximum value will also increase linearly.
+
+Please note that I'm unsure about more advanced or complex concepts, so if you'd like me to explain something more in-depth or if you have specific questions, I'd be happy to help.",,growth of an algorithm's time or space with input size;upper bound,n/a,5,,,,
+T22,topic,How does binary search work?,topic,topic,llm,"Here's a one-sentence definition to start:
+
+Binary search is an efficient algorithm for finding an element in a sorted array or list by repeatedly dividing the search interval in half and searching for the element in one of the two halves.
+
+Now, let's dive into the key ideas:
+
+* Binary search works by repeatedly dividing the search space in half until the target element is found.
+* The algorithm starts by comparing the target element to the middle element of the search space.
+* If the target element is equal to the middle element, the search is complete.
+* If the target element is less than the middle element, the search space is reduced to the lower half of the original space.
+* If the target element is greater than the middle element, the search space is reduced to the upper half of the original space.
+* The process is repeated until the target element is found.
+
+Here's a short example to illustrate how binary search works:
+
+Suppose we have a sorted list of integers: `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`. We want to find the element `6` in this list using binary search. Here's how we would do it:
+
+1. Start by comparing `6` to the middle element of the list, which is `5`. Since `6` is greater than `5`, we know that `6` must be in the upper half of the list.
+2. Reduce the search space to the upper half of the list, which is `[6, 7, 8, 9, 10]`.
+3. Compare `6` to the middle element of this new list, which is `8`. Since `6` is less than `8`, we know that `6` must be in the lower half of this new list.
+4. Reduce the search space to the lower half of this new list, which is `[6, 7]`.
+5. Compare `6` to the middle element of this new list, which is `6`. Since `6` is equal to the middle element, the search is complete, and we have found the element `6` in the list.
+
+I hope this helps! Let me know if you have any questions or if you'd like more examples.",,sorted array;compare with middle element;halve the search range;O(log n),n/a,5,,,,
+T23,topic,What is the role of TCP in networking?,topic,topic,llm,"Let's break it down step by step.
+
+**Definition:** TCP (Transmission Control Protocol) is a transport-layer protocol that ensures reliable, error-checked, and sequential delivery of data packets over IP networks.
+
+**Key Ideas:**
+
+1. **Reliability**: TCP ensures that data is delivered correctly and in the correct order, even if packets are lost or corrupted during transmission.
+2. **Error-checking**: TCP checks each packet for errors and retransmits any corrupted or lost packets to maintain data integrity.
+3. **Connection-oriented**: TCP establishes and maintains a connection between the sender and receiver before data transfer begins.
+4. **Flow control**: TCP regulates the amount of data sent at a time to prevent network congestion and ensure smooth data transfer.
+5. **Multiplexing**: TCP allows multiple applications to share the same network connection and IP address.
+
+**Example:**
+
+Imagine you're sending a file to a friend over the internet using a file-sharing program. TCP ensures that the file is received correctly, even if some packets get lost or corrupted during transmission. If any errors are detected, TCP retransmits the affected packets to maintain data integrity. Additionally, TCP ensures that the file is received in the correct order, so you don't get a jumbled mess of data.
+
+**Note:** I'm confident in my understanding of TCP's role in networking, but if you have any specific questions or concerns, feel free to ask and I'll do my best to help!",,reliable ordered delivery;connection-oriented;retransmission and flow control,n/a,5,,,,
+T24,topic,How does photosynthesis work?,topic,topic,llm,"Let's start with a one-sentence definition:
+
+Photosynthesis is the process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of glucose.
+
+Now, let's dive into the key ideas:
+
+1. Photosynthesis occurs in specialized organelles called chloroplasts, which are found in plant cells.
+2. Chloroplasts contain the pigment chlorophyll, which absorbs light energy from the sun.
+3. Water (H2O) and carbon dioxide (CO2) are absorbed by the plant through its roots and leaves, respectively.
+4. The energy from light is used to convert water and CO2 into glucose (a type of sugar) and oxygen.
+
+Let's take a short example to illustrate this process:
+
+Imagine a sunny meadow, where a blade of grass is standing tall. The grass's leaves are filled with chloroplasts, which contain chlorophyll. As the sun shines down, the chlorophyll absorbs light energy, which is then used to convert the water and CO2 absorbed by the roots and leaves into glucose. This glucose is then used by the plant as energy, and oxygen is released into the air as a byproduct.",,"plants convert light, water and CO2;into glucose and oxygen;chlorophyll in chloroplasts",n/a,5,,,,
+T25,topic,What does Newton's second law state?,topic,topic,llm,Newton's second law is a fundamental concept in physics that relates the motion of an object to the forces acting upon it.,,F = m a;force equals mass times acceleration,n/a,3,,,,
+T26,topic,Why does Earth have seasons?,topic,topic,llm,"Here's a one-sentence definition:
+
+Earth has seasons because of its tilted axis and orbit around the sun.
+
+Now, let's break down the key ideas:
+
+* Earth's axis is tilted at an angle of about 23.5 degrees relative to the plane of its orbit around the sun.
+* This tilt means that, as Earth orbits the sun, different parts of the planet receive varying amounts of sunlight, resulting in changes in temperature and climate.
+* The amount of sunlight an area receives depends on its position relative to the sun, with areas near the equator receiving more direct sunlight than areas closer to the poles.
+
+Here's a short example:
+
+Imagine you're standing on the equator on the first day of summer. You're feeling the warm sun on your skin, and the days are long and sunny. Now, imagine moving to the North Pole at the same time. You'll notice it's much colder, and the days are much shorter. This is because the North Pole is tilted away from the sun, receiving less direct sunlight.
+
+I'm not sure if that's a good example, can you clarify or give more context about what you're looking for?",,axial tilt of about 23.5 degrees;changes angle and duration of sunlight through the year,n/a,5,,,,
+T27,topic,What is inflation?,topic,topic,llm,"A great question!
+
+One-sentence definition: Inflation is a sustained increase in the general price level of goods and services in an economy over a period of time.
+
+Key ideas:
+
+* Inflation is a measure of how quickly prices are rising.
+* It's a macroeconomic concept that affects the overall economy, not just individual prices.
+* Inflation can be caused by various factors, such as an increase in the money supply, economic growth, or changes in supply and demand.
+
+Short example: Imagine you're buying your favorite coffee every morning. If the price of coffee goes up 10% over the course of a year, that's an example of inflation. You're paying more for the same amount of coffee. If you're earning a 5% raise, you might still be able to afford the same number of cups of coffee, but if the price goes up too much, you might need to cut back.
+
+When I'm unsure: I'm not an economist, and I don't have all the answers! But I can tell you that inflation can be a complex topic, and there are many different theories about what causes it. If you have any specific questions or want to know more, I can try to help you find reliable sources and experts to learn from.",,general rise in prices over time;falling purchasing power of money,n/a,5,,,,
+T28,topic,How do supply and demand set prices?,topic,topic,llm,"Here's a one-sentence definition:
+
+Supply and demand set prices by determining the equilibrium price at which the quantity of a good or service that producers are willing to sell (supply) equals the quantity that consumers are willing to buy (demand).
+
+Now, let me break down the key ideas:
+
+* Supply refers to the quantity of a good or service that producers are willing and able to produce and sell at a given price level.
+* Demand refers to the quantity of a good or service that consumers are willing and able to buy at a given price level.
+* The intersection of the supply and demand curves represents the equilibrium price and quantity, where the quantity supplied equals the quantity demanded.
+
+Here's a short example:
+
+Let's say we're looking at the market for a certain type of coffee mug. Suppose the supply of mugs is 100, and the demand for mugs is 80. At this price level, the quantity supplied is greater than the quantity demanded, so the price would tend to rise until the quantity supplied equals the quantity demanded. Let's say the price increases to $10, and at this price, the quantity supplied is 80, which equals the quantity demanded. This is the equilibrium price and quantity, where the market is in balance.
+
+However, I want to be clear that I'm unsure about certain aspects of the market, such as external factors like government policies or unexpected changes in consumer preferences, which can affect the supply and demand curves. But in general, the concept of supply and demand setting prices is a fundamental idea in economics.",,price rises when demand exceeds supply;equilibrium where supply equals demand,n/a,5,,n/a,3,
+T29,topic,What is DNA?,topic,topic,llm,"A great question! Here's a one-sentence definition to get us started:
+
+DNA (Deoxyribonucleic acid) is a molecule that contains the genetic instructions used in the development and function of all living organisms.
+
+Now, let's dive into the key ideas:
+
+DNA is a long, double-stranded helix made up of nucleotides, which are the building blocks of DNA. Each nucleotide is composed of a sugar molecule called deoxyribose, a phosphate group, and one of four nitrogenous bases: adenine (A), guanine (G), cytosine (C), and thymine (T). The sequence of these nitrogenous bases determines the genetic information encoded in the DNA molecule.
+
+Here's a short example to help illustrate this:
+
+Imagine a DNA molecule as a long, twisted ladder. The sugar and phosphate molecules make up the ladder's rungs, while the nitrogenous bases (A, G, C, and T) are the steps on each rung. The sequence of steps on each rung determines the genetic code, which contains the instructions for creating proteins, regulating gene expression, and passing on traits from parents to offspring.
+
+Now, I'm not an expert in molecular biology, so if you have any specific questions or need further clarification, please let me know!",,"molecule carrying genetic instructions;double helix;bases A, T, C, G",n/a,5,,,,
+T30,topic,What does the Pythagorean theorem state?,topic,topic,llm,"The Pythagorean theorem states: ""The square of the length of the hypotenuse side of a right-angled triangle is equal to the sum of the squares of the lengths of the other two sides.""
+
+Key ideas:
+
+* Right-angled triangle: A triangle with one angle that is 90 degrees (a ""corner"").
+* Hypotenuse: The side opposite the right angle (the longest side).
+* Squares of the lengths: The lengths of the sides multiplied by themselves (e.g., 3 x 3 = 9, not 3 + 3 = 6).
+
+Example: Let's say we have a right triangle with one side that's 3 inches long and the other side that's 4 inches long. Using the Pythagorean theorem, we can calculate the length of the hypotenuse (the side opposite the right angle):
+
+3^2 + 4^2 = x^2
+9 + 16 = x^2
+25 = x^2
+
+Now, take the square root of both sides:
+
+x = √25
+x = 5 inches
+
+So, the length of the hypotenuse is 5 inches.
+
+I'm confident that this explanation helps you understand the Pythagorean theorem!",,a^2 + b^2 = c^2;right triangle;c is the hypotenuse,n/a,5,,,,
+T31,topic,What is the GDPR?,topic,topic,llm,"Here's a one-sentence definition to get us started:
+
+The General Data Protection Regulation (GDPR) is a European Union (EU) data protection law that aims to protect the personal data of EU citizens and residents.
+
+Now, let's dive into the key ideas:
+
+* The GDPR is a comprehensive law that sets out rules for how organizations handle personal data, including the collection, storage, and processing of data.
+* It applies to any organization that processes personal data of EU citizens, regardless of where the organization is located.
+* The GDPR gives individuals more control over their personal data, allowing them to access, correct, and delete their data.
+* The law also introduces stricter rules for data breaches and requires organizations to be more transparent about their data practices.
+
+Now, let's look at a short example:
+
+For instance, if a company like Facebook wants to process the personal data of EU citizens, it must comply with the GDPR. This means Facebook must provide clear information about how it uses and protects users' data, obtain explicit consent from users before processing their data, and ensure that users can access and delete their data as needed.
+
+I hope that helps! Let me know if you have any questions or if there's anything else I can help with.",,EU General Data Protection Regulation;rules on personal data processing and individuals' rights,n/a,5,,,,
+T32,topic,What is hallucination in large language models?,topic,topic,llm,"Here's a one-sentence definition:
+
+A hallucination in large language models refers to the phenomenon where a model generates text or output that is not supported by the input or training data, but is still coherent and grammatically correct.
+
+Now, let's dive into the key ideas:
+
+* Hallucinations occur when a model makes predictions that are not present in the training data, but are still plausible and grammatically correct.
+* This can happen when a model is given an incomplete or ambiguous input, or when it's trying to generate text that is outside its training data or domain.
+* Hallucinations can be challenging to detect, as they are often indistinguishable from actual text or output.
+
+Here's a short example:
+
+Let's say we have a language model trained on a dataset of news articles from the 1950s. If we ask the model to generate a news article about a fictional event, such as a moon landing in the 1950s, it might generate text that is coherent and grammatically correct, but not supported by the training data (since the moon landing didn't happen until the 1960s). This would be an example of a hallucination.
+
+I'm unsure about the extent to which hallucinations are unique to large language models or if they're a more general problem in AI or machine learning. Can you clarify or provide more context?",,fluent but false or unsupported output;not grounded in facts or sources,n/a,5,,,,
+T33,topic,What is the difference between fine-tuning and prompt engineering?,topic,topic,llm,"Let's start with a one-sentence definition:
+
+Fine-tuning refers to the process of adjusting the hyperparameters of a pre-trained language model to optimize its performance on a specific task or dataset.
+
+Now, let's dive into the key ideas:
+
+* Fine-tuning involves modifying the pre-trained model to fit the specific requirements of a new task or dataset.
+* The goal is to adapt the model's weights and biases to better suit the new task, often by using a smaller amount of labeled data.
+* Fine-tuning is typically used when the model has a good starting point, but needs adjustments to improve its performance.
+
+Prompt engineering, on the other hand, is the process of crafting and designing the input prompts or instructions that are given to a language model to elicit specific responses.
+
+* The goal of prompt engineering is to design prompts that are clear, concise, and effective in eliciting the desired response from the model.
+* Prompt engineering often involves experimentation with different prompt formulations, wording, and structures to achieve the desired outcome.
+
+Now, let's look at a short example:
+
+Imagine you're working with a language model to generate product descriptions for an e-commerce website. You've pre-trained the model on a large corpus of text data, but you want to fine-tune it to generate descriptions for a specific product category (e.g., fashion). You would fine-tune the model by adjusting its hyperparameters to optimize its performance on a dataset of fashion product descriptions. Meanwhile, you might also design and test different prompts or instructions to guide the model's generation, such as ""Write a product description that highlights the key features of this dress"" or ""Generate a description that emphasizes the dress's comfort and versatility"".
+
+I'm unsure about one aspect: the exact distinction between fine-tuning and prompt engineering can be blurry, and some experts might use the terms interchangeably. However, in general, fine-tuning refers to the model's internal adjustments, while prompt engineering focuses on the external input prompts.",,fine-tuning updates model weights on new data;prompt engineering changes the input only,n/a,,,n/a,3,
+T34,topic,What is automatic speech recognition?,topic,topic,llm,"Here's a one-sentence definition:
+
+Automatic speech recognition (ASR) is a technology that enables machines to recognize and transcribe spoken language into text without human intervention.
+
+Now, let's dive into the key ideas:
+
+* ASR uses various algorithms and machine learning models to analyze the acoustic properties of speech, such as pitch, tone, and rhythm.
+* The system is trained on a large dataset of spoken language to learn patterns and correlations between sounds and meanings.
+* ASR can be applied in various domains, including voice assistants, transcription services, and speech-to-text applications.
+
+Let's consider a short example:
+
+Imagine you're using a voice assistant like Siri or Google Assistant. You say ""What's the weather like in New York?"" and the assistant responds with the current weather conditions in New York. In this scenario, the voice assistant is using ASR to recognize and transcribe your spoken query into text, allowing it to understand what you're asking and provide a relevant response.
+
+When I'm unsure, I'll let you know!",,converts spoken audio to text;acoustic and language models,n/a,5,,,,
+T35,topic,What is text-to-speech synthesis?,topic,topic,llm,"Let's break it down step by step.
+
+Definition: Text-to-speech synthesis (TTS) is the process of converting written text into spoken audio.
+
+Key ideas:
+
+* TTS involves analyzing written text and generating an audio recording that reads the text aloud
+* This technology is often used in applications such as voice assistants, audiobooks, and language learning software
+* The goal of TTS is to create a natural-sounding voice that accurately conveys the meaning and tone of the original text
+
+Example: Imagine using a voice assistant like Siri or Alexa to ask a question. The assistant would use TTS to convert your text input (""What's the weather like today?"") into a spoken response that sounds like a human voice.
+
+I'm happy to elaborate or clarify any aspects of TTS if you'd like!",,converts text into spoken audio;synthetic voice,n/a,5,,,,
+T36,topic,What is the Turing test?,topic,topic,llm,"A great question! Let me start by defining the Turing test:
+
+""The Turing test is a method for determining whether a machine or computer program can think or behave like a human being.""
+
+Now, let's dive into the key ideas behind the Turing test:
+
+* The test was developed by Alan Turing, a British mathematician and computer scientist, in the 1950s.
+* The test involves a human evaluator engaging in natural language conversations with both a human and a machine (like a computer program).
+* The evaluator doesn't know which is the human and which is the machine.
+* The machine passes the Turing test if the evaluator cannot reliably distinguish it from the human based on the conversation alone.
+
+Here's a short example:
+
+Imagine you're chatting with a friend on a messaging app. You start talking about a favorite TV show, and the conversation flows naturally. You ask for recommendations on what to watch next, and your friend suggests a few shows. You then ask for a brief summary of each show, and your friend provides a short description. In this case, you wouldn't be able to tell whether you're talking to a human or a well-designed AI program. This is roughly the kind of conversation that would be evaluated in the Turing test.
+
+However, I must note that I'm unsure about the specifics of how the test is conducted in practice, so please correct me if I'm wrong!",,test of machine intelligence proposed by Alan Turing;judge cannot tell machine from human in conversation,n/a,5,,,,
+T37,topic,How does a decision tree classifier make predictions?,topic,mixed,llm,"Here is the merged answer:
+
+**How does a decision tree classifier make predictions?**
+
+According to your document, the provided document does not cover the topic of decision tree classifier making predictions.
+
+Here's a step-by-step explanation:
+
+**Definition:** A decision tree classifier is a machine learning algorithm that uses a decision tree to classify data points into different categories based on their features.
+
+**Key Ideas:**
+
+* The algorithm starts by selecting the best feature to split the data based on a certain criterion (e.g., Gini impurity).
+* It then creates a decision node for each split, with the feature value serving as the threshold.
+* The algorithm recursively splits the data until it reaches a terminal node (a leaf node) that contains the predicted class label.
+* The tree is constructed in a top-down manner, and the algorithm makes predictions by traversing the tree from the root node to the terminal node.
+
+**Example:**
+
+Suppose we have a dataset of customer information, including age, income, and whether they buy a product or not. We want to build a decision tree classifier to predict whether a customer will buy the product based on their age and income.
+
+Here's an example of how the algorithm might work:
+
+1. The algorithm starts by selecting the best feature to split the data (e.g., income).
+2. It creates a decision node for the income feature, with the threshold being $50,000.
+3. The algorithm then splits the data into two subsets: one for customers with income above $50,000 and one for customers with income below $50,000.
+4. The algorithm repeats the process for each subset, selecting the best feature to split the data and creating a new decision node.
+5. After several iterations, the algorithm reaches a terminal node that predicts the class label (e.g., ""buy"" or ""don't buy"") based on the customer's age and income.
+
+When the algorithm reaches the terminal node, it makes a prediction based on the features and class label at that node. This prediction is then used to classify new, unseen data points.
+
+Please note that this is a simplified example, and the actual implementation may vary depending on the specific algorithm and dataset.","[0.22] Work The research validates that Decision Intelligence powered by AI significantly elevates the performance metrics for the enterprise sector. Not only does the method provide state -of-the-art algorithmic proficiency, but its triumph also relies on the organiza tion’s preparedness, data quality, an || [0.17] Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 1 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestr || [0.15] DI for enterprise systems 2. To look into the applications in the optimization of talent. 3. To demonstrate statistical analysis of DI adoption effects using Jamovi. Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article",splits data on feature thresholds;follows branches to a leaf label,no,1,,,,
+T38,topic,What is a confusion matrix?,topic,topic,llm,"A one-sentence definition:
+
+A confusion matrix is a table that displays the number of true positives, false positives, true negatives, and false negatives in a binary classification problem, used to evaluate the performance of a model.
+
+Let's break it down further:
+
+**Key ideas:**
+
+* Binary classification: The model is trying to predict one of two classes or outcomes.
+* True Positives (TP): The model correctly predicted a positive outcome (true positive).
+* False Positives (FP): The model incorrectly predicted a positive outcome when the actual outcome was negative (false positive).
+* True Negatives (TN): The model correctly predicted a negative outcome (true negative).
+* False Negatives (FN): The model incorrectly predicted a negative outcome when the actual outcome was positive (false negative).
+
+**Example:**
+
+Let's say we're using a machine learning model to classify medical test results as either ""positive"" (patient has the disease) or ""negative"" (patient does not have the disease). We have a dataset of 100 test results, and our model predicts the outcome for each test.
+
+| Actual Outcome | Predicted Outcome | Count |
+| --- | --- | --- |
+| Positive | Positive | 80 (True Positives) |
+| Positive | Negative | 10 (False Negatives) |
+| Negative | Positive | 5 (False Positives) |
+| Negative | Negative | 5 (True Negatives) |
+
+In this example, our model correctly predicted 80 positive test results (True Positives), but incorrectly predicted 10 negative test results as positive (False Negatives). It also incorrectly predicted 5 positive test results as negative (False Positives), and correctly predicted 5 negative test results as negative (True Negatives).
+
+I hope this helps!",,table of predicted vs actual classes;true/false positives and negatives,n/a,5,,n/a,4,
+T39,topic,What is transfer learning?,topic,topic,llm,"Here's a one-sentence definition:
+
+Transfer learning is a technique in machine learning where a pre-trained model is fine-tuned on a new task, leveraging the knowledge it gained from a related task to improve performance.
+
+Now, let's break down the key ideas:
+
+* A pre-trained model is a model that has already been trained on a specific task, such as image classification or language modeling.
+* Fine-tuning means adjusting the model's weights and parameters to better fit the new task, while still retaining the knowledge it gained from the original task.
+* The idea is that the model can transfer the knowledge it learned from the original task to the new task, which is related or similar, and use it as a starting point for better performance.
+
+Here's a short example:
+
+Imagine you have a pre-trained model that's excellent at recognizing different breeds of dogs. You then want to use this model to recognize different breeds of cats. You fine-tune the model by adjusting its weights and parameters to better fit the task of recognizing cat breeds. Since dogs and cats are both mammals and have similar features, the model can transfer its knowledge of dog breeds to the task of recognizing cat breeds, improving its performance.
+
+When I'm unsure, I'll definitely let you know! Transfer learning is a powerful technique, but it's not a magic solution. The key is to identify the relationship between the original task and the new task, and to ensure that the pre-trained model has a strong foundation to build upon.",,reuse a model trained on one task;adapt it to a related task with less data,n/a,5,,,,
+T40,topic,What is federated learning?,topic,topic,llm,"Here's a one-sentence definition to get us started:
+
+Federated learning is a distributed machine learning approach where multiple parties collaboratively train a shared model on their local data without sharing the data itself.
+
+Now, let's dive into the key ideas:
+
+* Federated learning is a decentralized approach, meaning that multiple parties contribute to the training process without sharing their individual data.
+* Each party (or node) trains a local model on their own data, and then shares the model updates with the other parties.
+* The updates are then aggregated to form a global model, which is shared back with each party.
+
+Here's a short example to help illustrate the concept:
+
+Imagine we're working on a project to develop a personalized healthcare app. We have multiple hospitals contributing to the project, each with their own patient data. Instead of sharing the patient data directly, the hospitals agree to train a shared model on their local data. They share the model updates with each other, and the updates are aggregated to form a global model. This way, we can develop a more accurate and personalized model without compromising patient privacy.
+
+I hope this helps! Do you have any follow-up questions or would you like me to elaborate on any of these points?",,train across many devices or sites;data stays local;only model updates are shared,n/a,5,,,,
+M01,mixed,This paper sets its significance threshold at p < 0.005. Explain what a p-value means and how this threshold compares with the common 0.05.,mixed,mixed,llm,"Here's the merged explanation:
+
+A p-value is the probability that the observed difference or effect is due to chance, and it's calculated based on the sample data and a statistical model. According to your document, a p-value represents the probability of observing the test statistic (F-value) under the assumption that there is no real effect or relationship between the variables. In other words, it is the probability of obtaining the observed results by chance, assuming that the null hypothesis is true.
+
+A smaller p-value indicates that the observed result is less likely to occur by chance, suggesting that the null hypothesis is unlikely to be true. In general, a p-value of 0.05 or smaller is considered statistically significant, which means that the observed result is unlikely to occur by chance, and the null hypothesis can be rejected. In the case of this paper, the p-values are given as 0.298 for AI Skill Score and 0.127 for Performance Metric. Since both p-values are greater than the significance threshold of 0.005, it means that the probability of obtaining the observed results by chance is very high, and therefore, there is no strong evidence to reject the null hypothesis.
+
+Now, let's compare the p-value threshold of 0.005 to the common 0.05. A p-value of 0.005 is much smaller than the common 0.05, which means that the observed result is even less likely to occur by chance. In general, a p-value of 0.005 or smaller is considered extremely statistically significant, indicating a strong and reliable finding. However, it's also important to consider the sample size and the study design when interpreting the p-value, as a small p-value may not necessarily mean that the finding is practically significant or generalizable to other populations.
+
+Example:
+
+Suppose a researcher conducts a study to investigate the effect of a new medication on blood pressure. They collect data from 100 patients and find that the average blood pressure decrease is 10 mmHg. The p-value for this finding is 0.005. This suggests that the observed difference in blood pressure is extremely unlikely to occur by chance, and the null hypothesis that the medication has no effect on blood pressure can be rejected. However, it's important to note that a p-value of 0.005 may not necessarily mean that the finding is practically significant or generalizable to other populations.","[0.50] requirement for the validity of parametric tests. The report consists of the F-statistic, degrees of freedom (df₁ and df₂), and corresponding p-values for each of the variables. For instance, in the case of AI Skill Score, the F-value is 1.09 with (1, 218) degrees of freedom giving a p-value of 0.29 || [0.35] PerformanceMetric 2.35 1 218 0.127 Note. A low p-value suggests a violation of the assumption of equal variances As shown in Table 3 the results of Levene’s Test conducted to assess the assumption of homogeneity of variances for the AI Skill Score and Performance Metric variables between AI-adopter  || [0.32] supports the conclusion that the residuals conform reasonably well to the normal distribution. Table 4 Independent Samples T-Test Comparing AI Skill Scores and Performance Metrics between Two Groups Independent Samples T-Test Statistic df p AI_Skill_Score Student's t -3.59 218 <.001 PerformanceMetri",paper uses p < 0.005;p-value = probability of data this extreme if the null is true;0.005 is ten times stricter than 0.05,yes,5,,partial,2,
+M02,mixed,The paper uses a synthetic dataset of 220 samples. What are the general limitations of synthetic data for drawing real-world conclusions?,mixed,mixed,llm,"Here is the merged answer:
+
+The paper uses a synthetic dataset of 220 samples. According to your document, the context only discusses the validation of Decision Intelligence powered by AI and the analysis of the AI Skill Score model, but it does not mention synthetic data. However, there are general limitations of synthetic data for drawing real-world conclusions that are worth considering.
+
+Let's break it down step by step. **Definition:** Synthetic data is artificial data generated to mimic real-world data, often used to supplement or replace actual data when it's not available or too expensive to collect.
+
+**Key Ideas:**
+
+1. **Lack of representativeness**: Synthetic data may not accurately capture the complexities and nuances of real-world data, as it's generated based on assumptions or simplifications.
+2. **Limited diversity**: Synthetic data can lack the diversity and variability of real-world data, which can lead to biased or inaccurate conclusions.
+3. **Overfitting**: Synthetic data may be too simplistic or overly controlled, which can lead to overfitting and poor generalizability to real-world scenarios.
+4. **Lack of domain knowledge**: The creators of synthetic data may not fully understand the underlying domain or context, which can result in data that's not representative of the real-world phenomenon.
+
+**Example:** Imagine you're trying to simulate the behavior of a complex medical device using synthetic data. You generate data based on simplified assumptions about patient characteristics and device performance. However, in reality, patient characteristics are much more diverse, and device performance is influenced by many more factors than you initially considered. As a result, your conclusions based on synthetic data may not accurately reflect the real-world behavior of the device.
+
+While these limitations are general concerns when working with synthetic data, I'm unsure about the specific limitations of synthetic data in the context of this paper, as more information about the dataset and the research question would be needed.","[0.21] requirement for the validity of parametric tests. The report consists of the F-statistic, degrees of freedom (df₁ and df₂), and corresponding p-values for each of the variables. For instance, in the case of AI Skill Score, the F-value is 1.09 with (1, 218) degrees of freedom giving a p-value of 0.29 || [0.21] Work The research validates that Decision Intelligence powered by AI significantly elevates the performance metrics for the enterprise sector. Not only does the method provide state -of-the-art algorithmic proficiency, but its triumph also relies on the organiza tion’s preparedness, data quality, an || [0.19] the residuals. Such a situation gives more trust in the inference conclusions made using the model. The Q-Q plot is indeed a very important diagnostic tool to check the normality assumption in regression modeling. The visual correspondence seen here is another evidence of the AI Skill Score estimate","paper: synthetic dataset, 220 samples;synthetic data may not reflect real distributions;findings illustrate the method rather than prove real effects",partial,4,,,,
+M03,mixed,"Explain what Levene's test checks, and interpret the Levene results this paper reports.",mixed,mixed,llm,"Here's the merged explanation:
+
+Levene's test is a statistical test used to check for homogeneity of variance, or more specifically, to determine whether the variances of different groups are equal. According to your document, Levene's Test is conducted to assess the assumption of homogeneity of variances for the AI Skill Score and Performance Metric variables between AI-adopter and non-adopter groups.
+
+**Key ideas:**
+
+* Homogeneity of variance is a crucial assumption in many statistical tests, such as ANOVA and regression analysis.
+* Levene's test is a way to assess whether this assumption is met by checking if the variances of different groups are equal.
+* If the variances are not equal, it may indicate that the data is not normally distributed or that there are outliers in the data.
+
+The results of Levene's Test are reported as F-values with corresponding p-values for each variable. According to the document, for the AI Skill Score, the F-value is 1.09 with (1, 218) degrees of freedom, giving a p-value of 0.298, which is more than the usually used alpha level of 0.05. For the Performance Metric, the F-value is 2.35 for (1, 218) degrees of freedom, with a p-value of 0.127, also greater than the alpha level of 0.05.
+
+Since both p-values are greater than 0.05, it implies that the assumption of equal variances is not breached for either of the variables. This conclusion favors the application of the standard t-test over the adjusted version.
+
+In summary, Levene's Test checks the assumption of homogeneity of variances, and the reported results indicate that the assumption of equal variances is not violated for both AI Skill Score and Performance Metric variables.","[0.35] requirement for the validity of parametric tests. The report consists of the F-statistic, degrees of freedom (df₁ and df₂), and corresponding p-values for each of the variables. For instance, in the case of AI Skill Score, the F-value is 1.09 with (1, 218) degrees of freedom giving a p-value of 0.29 || [0.29] the residuals. Such a situation gives more trust in the inference conclusions made using the model. The Q-Q plot is indeed a very important diagnostic tool to check the normality assumption in regression modeling. The visual correspondence seen here is another evidence of the AI Skill Score estimate || [0.29] PerformanceMetric 2.35 1 218 0.127 Note. A low p-value suggests a violation of the assumption of equal variances As shown in Table 3 the results of Levene’s Test conducted to assess the assumption of homogeneity of variances for the AI Skill Score and Performance Metric variables between AI-adopter ",Levene's test checks equality of variances;paper: p=0.298 and p=0.127;p > 0.05 so equal variances assumed,yes,5,,,,
+M04,mixed,The paper reports an adjusted R-squared for its regression. What does adjusted R-squared measure and what does this paper's value suggest?,mixed,mixed,llm,"Here's the merged answer:
+
+The paper reports an adjusted R-squared for its regression, but the document does not provide information about what adjusted R-squared measures or what the paper's value suggests. According to your document, the document only provides information about the F-statistic, degrees of freedom, and corresponding p-values for each of the variables, as well as the Q-Q plots for the AI Skill Score and Performance Metric models. Therefore, it is not possible to determine what the adjusted R-squared value measures or what the paper's value suggests.
+
+However, in general, adjusted R-squared measures the proportion of the variance in the dependent variable that can be predicted by one or more independent variables, while accounting for the number of predictors in the model. A higher value of adjusted R-squared indicates a better fit of the model to the data.
+
+If the paper reports an adjusted R-squared value that is:
+
+* High (close to 1), it suggests that the model is a very good fit to the data, and most of the variation in the dependent variable can be explained by the independent variables.
+* Medium (around 0.2-0.5), it suggests that the model is a moderate fit to the data, and some variation in the dependent variable remains unexplained.
+* Low (below 0.1), it suggests that the model is not a good fit to the data, and most of the variation in the dependent variable remains unexplained.","[0.32] requirement for the validity of parametric tests. The report consists of the F-statistic, degrees of freedom (df₁ and df₂), and corresponding p-values for each of the variables. For instance, in the case of AI Skill Score, the F-value is 1.09 with (1, 218) degrees of freedom giving a p-value of 0.29 || [0.27] the residuals. Such a situation gives more trust in the inference conclusions made using the model. The Q-Q plot is indeed a very important diagnostic tool to check the normality assumption in regression modeling. The visual correspondence seen here is another evidence of the AI Skill Score estimate || [0.21] symmetric distribution about the mean, which consequently increases the reliability of the statistics. Residuals’ normality assures that parameter es timates are never subjected to bias and are always efficient by the Gauss Markov theorem. This graphical validation adds confidence to inferential int","paper: adjusted R2=0.71;share of variance explained, penalised for number of predictors;0.71 = about 71% explained",partial,4,,,,
+M05,mixed,The paper says its review followed PRISMA. What is PRISMA and what are its main steps?,mixed,mixed,llm,"Here is the merged answer:
+
+The paper says its review followed PRISMA. What is PRISMA and what are its main steps?
+
+According to your document, PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) is a set of guidelines for reporting systematic reviews and meta-analyses of research studies. The main steps of PRISMA are:
+
+1. **Registration**: The review protocol should be registered before starting the review.
+2. **Search**: Identify relevant studies by searching multiple databases, including electronic databases, handsearching journals, and contacting experts in the field.
+3. **Screening**: Apply inclusion and exclusion criteria to the search results to identify studies that meet the review's objectives.
+4. **Eligibility**: Evaluate the methodological quality of the included studies to determine their eligibility for the review.
+5. **Data extraction**: Extract relevant data from the included studies, such as study design, population, interventions, outcomes, and results.
+6. **Synthesis**: Synthesize the extracted data to answer the review's research questions.
+
+According to your document, the authors followed the PRISMA guidelines to conduct a systematic literature review, searching databases such as IEEE Xplore, Scopus, and SpringerLink using terms like ""Decision Intelligence,"" ""AI in ERP,"" ""HR analytics,"" and ""talent optimization."" The authors then applied inclusion and exclusion criteria to identify relevant studies and extracted relevant data from the included studies to answer the review's research questions.
+
+In general, PRISMA is a standardized checklist of items that authors should include when reporting a systematic review or meta-analysis. The checklist is divided into several sections, including title and abstract, methods, results, discussion, and conclusion. The main steps in a PRISMA review are formulating a research question, conducting a comprehensive literature search, identifying and selecting studies that meet the inclusion criteria, assessing the risk of bias in the included studies, presenting the results of the review, and discussing the implications of the results.","[0.14] DI for enterprise systems 2. To look into the applications in the optimization of talent. 3. To demonstrate statistical analysis of DI adoption effects using Jamovi. Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article || [0.13] Work The research validates that Decision Intelligence powered by AI significantly elevates the performance metrics for the enterprise sector. Not only does the method provide state -of-the-art algorithmic proficiency, but its triumph also relies on the organiza tion’s preparedness, data quality, an || [0.13] Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 1 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestr","paper used PRISMA with IEEE Xplore, Scopus, SpringerLink;PRISMA = reporting guideline for systematic reviews;identification, screening, eligibility, inclusion",yes,5,,,,
+M06,mixed,The paper's t-test reports 218 degrees of freedom. Explain how degrees of freedom are calculated for an independent-samples t-test and check this against the sample size.,mixed,mixed,llm,"Here's the merged explanation for the learner:
+
+The degrees of freedom (df) for an independent-samples t-test are a statistical concept that represents the number of independent pieces of information in a dataset that are used to estimate a population parameter. According to your document, the degrees of freedom are calculated as follows:
+
+df = n1 + n2 - 2
+
+where n1 and n2 are the sample sizes of the two groups being compared.
+
+In this case, the degrees of freedom (df) is 218. This suggests that the sample size is likely to be much larger than the traditional assumption of 30 or more observations per group. However, the sample size is not explicitly mentioned, so we cannot directly calculate the degrees of freedom using the formula above. Nevertheless, we can infer that the sample size is likely to be large enough to provide a reliable estimate of the population mean, given the high degrees of freedom.
+
+It's worth noting that the degrees of freedom calculation is not directly relevant to the interpretation of the t-test results. The p-value and the t-statistic are more important for understanding the significance of the results.","[0.41] supports the conclusion that the residuals conform reasonably well to the normal distribution. Table 4 Independent Samples T-Test Comparing AI Skill Scores and Performance Metrics between Two Groups Independent Samples T-Test Statistic df p AI_Skill_Score Student's t -3.59 218 <.001 PerformanceMetri || [0.40] requirement for the validity of parametric tests. The report consists of the F-statistic, degrees of freedom (df₁ and df₂), and corresponding p-values for each of the variables. For instance, in the case of AI Skill Score, the F-value is 1.09 with (1, 218) degrees of freedom giving a p-value of 0.29 || [0.21] PerformanceMetric 2.35 1 218 0.127 Note. A low p-value suggests a violation of the assumption of equal variances As shown in Table 3 the results of Levene’s Test conducted to assess the assumption of homogeneity of variances for the AI Skill Score and Performance Metric variables between AI-adopter ","paper: df=218, N=220;df = n1 + n2 - 2;220 - 2 = 218",yes,5,,,,
+M07,mixed,How does Decision Intelligence as described in this paper differ from traditional business intelligence?,mixed,mixed,llm,"Here is the merged answer:
+
+Decision Intelligence (DI) as described in the document differs from traditional business intelligence (BI) in that it not only provides insights but also considers human judgment and expertise, making decisions more relevant to the situation. According to the document, DI is not just a technological upgrade but a strategic metamorphosis that requires a combination of advanced analytics, solid governance frameworks, skilled human resources, and a data-driven culture.
+
+In general, Decision Intelligence (DI) refers to the process of using data and analytics to inform decision-making in an organization. Key ideas that differentiate DI from traditional BI include:
+
+* DI focuses on proactive decision-making, whereas BI often focuses on reactive reporting and analysis.
+* DI involves a more explicit consideration of the decision-making process, including the identification of decision-makers, the definition of decision-making criteria, and the evaluation of decision outcomes.
+* DI emphasizes the use of data and analytics to support decision-making, rather than simply providing reports or insights.
+* DI is often more iterative and interactive, involving multiple stakeholders and decision-making cycles, whereas BI may be more static and one-way.
+
+To illustrate the difference, let's consider an example. A retail company is considering launching a new product line. Traditional BI might provide a report on customer demographics and purchasing habits, but DI would involve a more deliberate decision-making process, including identifying the key stakeholders (e.g., marketing, sales, and product teams), defining the criteria for success (e.g., revenue targets and customer acquisition metrics), and evaluating the potential outcomes of different decisions (e.g., launching the product in different regions or with different marketing strategies).","[0.61] Work The research validates that Decision Intelligence powered by AI significantly elevates the performance metrics for the enterprise sector. Not only does the method provide state -of-the-art algorithmic proficiency, but its triumph also relies on the organiza tion’s preparedness, data quality, an || [0.59] to measurable ROI and employee retention. 2. DI frameworks were compared across various industries for better understanding. 3. Integration of explainable AI for clear and transparent decision flows. 4. Creating ethical standards and governance models for human-in-the-loop DI. Decision Intelligence  || [0.55] Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 1 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestr","paper: DI combines AI, analytics and decision theory, focuses on decision impact, human-in-the-loop;BI generally reports and describes past data",yes,5,,yes,4,
+M08,mixed,"The paper uses Q-Q plots to check its models. What does a Q-Q plot show in general, and what does the paper conclude from its plots?",mixed,mixed,llm,"Here's a merged explanation that combines the document-specific information with general knowledge:
+
+A Q-Q plot, also known as a quantile-quantile plot, is a graphical representation that compares the quantiles of two distributions. It is a graphical tool that shows the relationship between the observed residuals and their expected values under the assumption of normality. In the plot, the theoretical quantiles of a standard normal distribution are displayed on the horizontal axis, and the standardized residuals from the fitted model are displayed on the vertical axis.
+
+According to your document, the Q-Q plots in the paper provide a visual confirmation that the residuals are normally distributed, which is essential for the application of parametric tests. The plots show that most of the residuals are close to the reference line, indicating that the residuals are almost normally distributed. The slight deviations at the tails are attributed to a few extreme observations, but do not indicate a strong skewness or kurtosis. The plots also suggest that the residuals have little or no skewness and uniform variance, which gives more trust in the inference conclusions made using the model.
+
+In general, Q-Q plots are used to visually assess the similarity between two distributions. The x-axis represents the quantiles of one distribution, and the y-axis represents the quantiles of the other distribution. The plot shows how the two distributions match up, with a straight line indicating perfect matching.","[0.50] symmetric distribution about the mean, which consequently increases the reliability of the statistics. Residuals’ normality assures that parameter es timates are never subjected to bias and are always efficient by the Gauss Markov theorem. This graphical validation adds confidence to inferential int || [0.42] the residuals. Such a situation gives more trust in the inference conclusions made using the model. The Q-Q plot is indeed a very important diagnostic tool to check the normality assumption in regression modeling. The visual correspondence seen here is another evidence of the AI Skill Score estimate || [0.18] requirement for the validity of parametric tests. The report consists of the F-statistic, degrees of freedom (df₁ and df₂), and corresponding p-values for each of the variables. For instance, in the case of AI Skill Score, the F-value is 1.09 with (1, 218) degrees of freedom giving a p-value of 0.29","Q-Q plot compares sample quantiles with theoretical normal quantiles;points on the line mean approximate normality;paper: near-linear, approximately normal residuals",yes,5,,,,
+M09,mixed,Explain human-in-the-loop design in machine learning and how this paper relates it to Decision Intelligence.,mixed,mixed,llm,"Here's the merged explanation:
+
+Human-in-the-loop design in machine learning refers to a design approach where human decision-makers or annotators actively participate in the machine learning process to correct or improve the model's performance. According to your document, this approach is crucial in Decision Intelligence, ensuring that AI-generated decisions are transparent, fair, and accountable. In the context of Decision Intelligence, human-in-the-loop design enables organizations to convert raw data into actionable insights, promoting a data-driven culture that reduces reliance on intuition and guesswork.
+
+In this approach, humans are engaged to review, correct, or validate the model's output, often through a continuous feedback loop. This design allows machines to learn from human expertise and adapt to changing contexts or biases. Human-in-the-loop design can be applied to various machine learning tasks, such as data labeling, feature engineering, and model validation.
+
+For example, imagine you're building a chatbot that helps customers with product recommendations. A human-in-the-loop design approach would involve having human experts review and correct the chatbot's suggestions based on customer feedback. The human experts could flag incorrect or irrelevant recommendations, which the chatbot would then learn from to improve its performance over time.
+
+The paper highlights the importance of human oversight in AI-assisted decision-making, stating that ""Decision Intelligence promotes a management style that is based on evidence, thereby reducing the reliance on intuition and guesswork."" This emphasis on human involvement ensures that AI-generated insights are not only accurate but also relevant to the situation, as they are filtered through human judgment and expertise.","[0.47] to measurable ROI and employee retention. 2. DI frameworks were compared across various industries for better understanding. 3. Integration of explainable AI for clear and transparent decision flows. 4. Creating ethical standards and governance models for human-in-the-loop DI. Decision Intelligence  || [0.41] DI for enterprise systems 2. To look into the applications in the optimization of talent. 3. To demonstrate statistical analysis of DI adoption effects using Jamovi. Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article || [0.38] Work The research validates that Decision Intelligence powered by AI significantly elevates the performance metrics for the enterprise sector. Not only does the method provide state -of-the-art algorithmic proficiency, but its triumph also relies on the organiza tion’s preparedness, data quality, an",HITL = humans review or guide model decisions;paper: DI integrates AI with HITL design;future work on governance for human-in-the-loop DI,yes,5,,,,
+M10,mixed,The paper used logistic regression for DI adoption. Why is logistic rather than linear regression used for that kind of outcome?,mixed,mixed,llm,"Here's the merged explanation:
+
+The paper used logistic regression for DI adoption because the outcome is a binary variable (0=No, 1=Yes), indicating whether employees adopted DI tools or not. According to your document, logistic regression is a suitable choice for modeling binary outcomes, as it estimates the probability of the outcome being 1 (i.e., DI adoption) based on the predictors. In this case, the logistic regression confirmed that employees with higher AI skills and training hours were more likely to adopt DI tools. Logistic regression is used when the outcome variable is categorical, not continuous (like in linear regression), and the goal is to predict the probability of an event occurring (e.g., adopting DI) based on the predictor variables. The logit link function is used to model the relationship between the predictor variables and the log odds of the outcome.","[0.35] https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is  || [0.28] DI for enterprise systems 2. To look into the applications in the optimization of talent. 3. To demonstrate statistical analysis of DI adoption effects using Jamovi. Journal of Information Systems Engineering and Management 2023, 8(2) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article || [0.24] symmetric distribution about the mean, which consequently increases the reliability of the statistics. Residuals’ normality assures that parameter es timates are never subjected to bias and are always efficient by the Gauss Markov theorem. This graphical validation adds confidence to inferential int",paper: DI adoption is 0/1;logistic regression models probability of a binary outcome;linear regression can predict outside 0-1,yes,5,,,,
+M11,mixed,This study selected its enterprises by purposive sampling. What is purposive sampling and what is its main limitation compared with random sampling?,mixed,mixed,llm,"Here's the merged answer:
+
+The study selected its enterprises by purposive sampling. According to your document, the document does not cover the topic of sampling methods, including purposive sampling. Therefore, we will focus on general knowledge.
+
+Purposive sampling is a non-probabilistic sampling method where the researcher intentionally selects a subset of cases from a larger population based on specific criteria or characteristics, often with the goal of achieving a specific research objective or gaining in-depth understanding of a phenomenon. This method is often used in qualitative research, where the goal is to gain insights or understand complex phenomena, rather than making generalizable conclusions.
+
+One of the main limitations of purposive sampling is that it can lead to biased or selective results, as the researcher may inadvertently introduce their own biases or preferences into the selection process. This can result in a sample that is not representative of the larger population, and the findings may not be generalizable to other contexts. In contrast, random sampling, when done correctly, is designed to produce a representative sample that is more likely to reflect the characteristics of the larger population.
+
+In this study, the researcher likely used specific criteria or characteristics to select the enterprises, which may have led to biased or selective results.","[0.26] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh || [0.24] and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 8 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction i || [0.18] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting","paper: 120 enterprises, purposive sampling;researcher selects cases deliberately;limits generalisability and adds selection bias",yes,5,,,,
+M12,mixed,The study uses a cross-sectional design. Why can a cross-sectional design not establish causation?,mixed,mixed,llm,"Here's the merged explanation:
+
+The study uses a cross-sectional design. According to your document, a cross-sectional design is not suitable for establishing causation because it only captures a snapshot of data at one point in time. It cannot account for any temporal relationships between variables, which is necessary to establish causality.
+
+In a cross-sectional design, we collect data from participants at a single point in time, often taking a snapshot of a population or phenomenon. We can't manipulate any variables or interventions in a cross-sectional design. We're looking at the relationships between variables or characteristics at one specific moment.
+
+Let's take an example. Imagine we want to study the relationship between exercise habits and mental well-being. In a cross-sectional design, we would collect data from a group of people at one point in time, asking them about their exercise habits and their current mental well-being. We might find that people who exercise regularly report better mental well-being, but we can't conclude that exercise causes better mental well-being.
+
+Why can't we establish causation? Well, in a cross-sectional design, we can't rule out other possible explanations for the observed relationship. For instance, maybe people who exercise regularly are also more likely to have a good diet, get enough sleep, and have strong social connections, which all contribute to better mental well-being. Or maybe there's another factor entirely that we haven't thought of. Without a control group or manipulation of the exercise variable, we can't be sure what's causing what.","[0.17] prioritize AI adoption as a strategic initiative, investing in both technological infrastructure and employee skill development to fully leverage the benefits of generative AI. The results also underscore the need for tailored AI strategies, as one-size-fits-all approaches may not address organizati || [0.17] implementation costs Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License  || [0.16] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting",paper: quantitative cross-sectional design;data at a single point in time;cannot show temporal order or rule out confounders,yes,5,,,,
+M13,mixed,The paper presents a violin plot. How does a violin plot differ from a box plot?,mixed,mixed,llm,"Here's the merged answer:
+
+A violin plot is a graphical representation that combines a kernel density plot with a box plot, providing a more detailed view of the distribution of the data. According to your document, a violin plot combines the features of a box plot and a kernel density plot, providing a comprehensive view of both data spread and concentration.
+
+Key ideas:
+
+* A violin plot shows the distribution of the data in a more nuanced way than a box plot, which can be misleading for non-normal or skewed distributions.
+* The violin plot's kernel density plot provides a smooth, continuous representation of the data's underlying distribution, while the box plot's quartiles and outliers give an idea of the data's spread and extremes.
+* Violin plots are particularly useful for identifying multimodal or skewed distributions, where box plots might not capture the true nature of the data.
+
+Example:
+Let's say we're analyzing the heights of a group of adults, and we want to visualize the distribution of the data. A box plot might show the median height, quartiles, and outliers, but it might not reveal that the data is actually bimodal, with two distinct groups of shorter and taller individuals. A violin plot, on the other hand, would show the kernel density plot as a smooth curve, allowing us to see the two distinct modes and the overall shape of the distribution.
+
+By combining the features of a box plot and a kernel density plot, violin plots offer a more comprehensive understanding of the data distribution, making them a valuable tool for data analysis and visualization.","[0.23] and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 8 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction i || [0.10] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh || [0.06] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting",paper Figure 3 is a violin plot;box plot shows median and quartiles;violin adds kernel density showing distribution shape,yes,5,,,,
+M14,mixed,"The paper describes the AI usage distribution as roughly bimodal. What does bimodal mean, and why can the mean be misleading for such data?",mixed,mixed,llm,"Here's a merged explanation for the learner:
+
+The AI usage distribution is roughly bimodal, which means that the data is clustered around two specific values rather than being evenly spread out. According to your document, this indicates that enterprises cluster around two distinct AI adoption levels – moderate and high. The density curve superimposed on the histogram provides a smooth estimation of the frequency distribution, reinforcing the observation of two dominant peaks. This pattern indicates that generative AI integration is not uniform across industries or organizations, reflecting different stages of digital transformation maturity.
+
+In a bimodal distribution, the data is not uniformly spread, but rather has two main concentrations or modes. This type of distribution can occur when there are two distinct categories or groups in the data, and each group has its own characteristics. The mean (average) of a bimodal distribution can be misleading because it can be pulled towards the mean of one of the two modes, rather than accurately representing the overall distribution.
+
+According to your document, since the data is bimodal, the mean AI usage level of 58.2 might not be representative of the majority of enterprises. The median or mode (if the data were discrete) would be more informative in this case, as they would reflect the central tendency of the data in the presence of bimodality.
+
+In general, the mean of a bimodal distribution can be misleading because it can be skewed towards one of the two modes. For example, if we have a dataset of people's ages and it's bimodal with one peak around 25-30 years old and another peak around 60-65 years old, the mean age might be skewed towards the younger peak, giving an average age that's lower than the actual distribution suggests. This is because the older group has a larger impact on the mean due to their higher ages.","[0.65] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh || [0.59] and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 8 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction i || [0.56] AI usage across enterprises involved in workforce planning and resource decision -making. The mean value of AI adoption was approximately 58, indicating a moderate to high level of integration of AI tools an d systems among participating organizations. The error bar represents the standard error of ","paper: bimodal, moderate and high clusters, mean 58.2;bimodal = two peaks;mean may fall between peaks where few cases lie",yes,5,,,,
+M15,mixed,"Using the mean and standard deviation the paper reports for AI Usage Level, calculate the coefficient of variation and interpret it.",mixed,mixed,llm,"Here's the merged explanation:
+
+Using the mean and standard deviation of AI Usage Level, we can calculate the coefficient of variation (CV) and interpret its meaning.
+
+According to your document, the mean AI Usage Level is 58.2, and the standard deviation is 23.8. To calculate the CV, we use the formula: CV = (Standard Deviation) / (Mean) = (23.8) / (58.2) = 0.409.
+
+The coefficient of variation is a measure of the relative spread or dispersion of a distribution. A lower CV indicates that the data are relatively concentrated around the mean, while a higher CV indicates that the data are more spread out. In this case, the CV is approximately 0.409, which means that the AI Usage Level values are relatively spread out, with about 40.9% of the values falling outside of one standard deviation from the mean. This suggests that there is significant variation in AI adoption levels across the 120 enterprises studied.
+
+One-sentence definition: The coefficient of variation (CV) is a measure of the relative variability of a distribution, calculated as the ratio of the standard deviation to the mean, expressed as a percentage.
+
+The CV is a dimensionless measure, meaning it doesn't depend on the units of measurement. It's a relative measure, meaning it compares the variability of the distribution to its mean. A CV of 0 indicates no variability, while a CV greater than 0 indicates some degree of variability.
+
+In this case, the CV of 0.409 suggests that AI adoption levels vary significantly across enterprises, which is consistent with the findings presented in the paper, including the histogram and violin plot of AI usage levels. This implies that AI adoption levels vary significantly across enterprises, which is consistent with the findings presented in the paper.","[0.55] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh || [0.53] and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 8 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction i || [0.53] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting","paper: mean 58.2, SD 23.8;CV = SD/mean = about 40.9%;relatively high variability",yes,5,,,,
+M16,mixed,The paper cites Brynjolfsson et al. on productivity. What does wider research generally say about how generative AI productivity gains differ between less and more experienced workers?,mixed,mixed,llm,"Here's the merged answer:
+
+The paper cites Brynjolfsson et al. on productivity. According to your document, the document only mentions the impact of generative AI on workforce productivity in general, citing Brynjolfsson et al. who reported that enterprises integrating AI into workflow management experienced productivity gains of up to 15%, with more pronounced effects among knowledge workers. However, it does not provide further information on how these gains differ between less and more experienced workers.
+
+Wider research suggests that the productivity gains from generative AI may vary significantly between less and more experienced workers. Less experienced workers may benefit more from generative AI's ability to augment and support their decision-making processes, whereas more experienced workers may experience diminishing returns due to the AI's potential to automate tasks they're already proficient in.
+
+To illustrate this, let's consider a content writer with 5 years of experience and a junior writer with 1 year of experience. The junior writer may benefit more from using a generative AI tool to suggest article outlines or provide writing prompts, as it can help them learn and improve their writing skills. On the other hand, the experienced writer may find that the AI tool is simply repeating what they already know and can do efficiently, reducing the potential productivity gains.","[0.60] properly cited. Employee Satisfaction in AI-Driven Workplaces The integration of AI also has implications for employee satisfaction. While automation can reduce the burden of repetitive tasks and improve job satisfaction, it may also create concerns regarding job security and the need for continuous || [0.60] AI usage across enterprises involved in workforce planning and resource decision -making. The mean value of AI adoption was approximately 58, indicating a moderate to high level of integration of AI tools an d systems among participating organizations. The error bar represents the standard error of  || [0.59] and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 8 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction i","paper: gains up to 15%, larger for knowledge workers;Brynjolfsson, Li and Raymond (2023) found largest gains for novice and less-skilled workers",yes,4,,,,
+M17,mixed,The paper's highest Workforce Productivity value is 122.5 although other measures run roughly from 0 to 100. What does this suggest about the measurement scale and possible outliers?,mixed,mixed,llm,"Here's the merged answer:
+
+The paper's highest Workforce Productivity value is 122.5, which suggests that the measurement scale is not necessarily a 0-100 scale, but rather a scale that has been extended or modified to accommodate values that exceed the typical range. This could imply the presence of outliers or exceptional cases that do not fit neatly within the typical range of values. According to your document, this value may indicate that there are specific circumstances or characteristics that distinguish this particular enterprise from others, making it an outlier in terms of workforce productivity.
+
+Workforce Productivity is a measure that evaluates the efficiency of a company's workforce in producing goods or services. The measurement scale is likely to be ordinal or interval, rather than nominal, since it has a clear meaning and magnitude. The presence of values above 100 suggests that the scale is not bounded, meaning it doesn't have a fixed upper limit. The range of values, from roughly 0 to 100, implies that the measurement is likely to be bounded below, but not above.
+
+For example, imagine a company that measures the productivity of its employees by tracking the number of widgets they produce per hour. A value of 0 might indicate that the employee is not working at all, while a value of 100 could represent an average production rate. However, if an exceptional employee produces 122.5 widgets per hour, it suggests that this measurement scale is not capped, and there might be room for even higher productivity. The exact reason behind this measurement scale is unclear, but it may be due to the way the measurement is calculated or the specific context of the company.","[0.36] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting || [0.36] and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 8 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License which permits unrestricted use, distribution, and reproduction i || [0.33] implementation costs Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License ",paper: max productivity 122.5;index not bounded at 100;check scale definition and outliers,yes,5,,,,
+M18,mixed,Employee satisfaction in this study was self-reported. What biases affect self-reported survey measures?,mixed,mixed,llm,"Here's a merged explanation for the learner:
+
+According to your document, employee satisfaction in this study was evaluated through self-reported survey items. However, the document does not discuss the potential biases associated with self-reported measures.
+
+Self-reported survey measures are methods where participants report their own experiences, attitudes, or behaviors through questionnaires or interviews. When participants report their own experiences or attitudes, there are several biases that can affect the accuracy of the data. These biases can be intentional or unintentional. Some common biases that can affect self-reported survey measures include:
+
+1. Social desirability bias: Participants may provide responses that they think are socially acceptable, rather than their actual feelings or experiences.
+2. Acquiescence bias: Participants may agree with statements or questions more frequently than they actually agree with the content, simply because they don't want to appear disagreeable.
+3. Desirability bias: Participants may report positive or socially desirable responses to avoid appearing negative or unfavorable.
+4. Recall bias: Participants may not accurately recall past events, experiences, or attitudes due to memory lapses or biases.
+5. Shyness or introversion bias: Participants who are shy or introverted may be less likely to report their true feelings or experiences due to fear of being judged or evaluated.
+6. Halo effect: Participants may rate a specific aspect of their job or experience more positively or negatively based on their overall satisfaction or dissatisfaction with the organization.
+7. Leniency bias: Participants may provide overly positive or overly negative responses due to their general tendency to be lenient or harsh in their evaluations.
+
+For instance, if an employee is asked how satisfied they are with their job, they might report a high level of satisfaction if they want to appear positive and enthusiastic, even if their actual satisfaction is moderate or low.","[0.52] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting || [0.42] properly cited. Employee Satisfaction in AI-Driven Workplaces The integration of AI also has implications for employee satisfaction. While automation can reduce the burden of repetitive tasks and improve job satisfaction, it may also create concerns regarding job security and the need for continuous || [0.41] implementation costs Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License ",paper: self-reported survey items;social desirability bias;common-method and recall bias,partial,4,,yes,4,
+M19,mixed,The paper assesses Decision Efficiency by the speed and accuracy of decisions. How else do organizations commonly measure decision quality?,mixed,mixed,llm,"Here is the merged answer:
+
+Decision Efficiency is a measure of the speed and accuracy of decision-making processes within an organization. According to your document, this metric assesses the speed and accuracy of decisions. However, organizations commonly measure decision quality in other ways, such as:
+
+* Decision Effectiveness: This measures the actual outcome or impact of a decision, rather than just the process.
+* Decision Consistency: This assesses whether decisions are consistently made in line with organizational goals and values.
+* Decision Rationality: This evaluates whether decisions are made using logical and well-reasoned arguments.
+* Decision Accountability: This examines who is responsible for making and implementing decisions, and whether there are clear consequences for poor decision-making.
+
+For example, a retail company might use Decision Efficiency to track the speed and accuracy of their pricing team's decisions, but also use Decision Effectiveness to evaluate the actual impact of those decisions on sales and profitability.","[0.37] implementation costs Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 3 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License  || [0.32] is properly cited. For inferential analysis, correlation and regression techniques were applied to assess the relationships between AI usage levels and organizational outcomes. Assumptions for parametric analysis, including normality, linearity, and homoscedasticity, were ve rified before conducting || [0.29] properly cited. Employee Satisfaction in AI-Driven Workplaces The integration of AI also has implications for employee satisfaction. While automation can reduce the burden of repetitive tasks and improve job satisfaction, it may also create concerns regarding job security and the need for continuous","paper: speed and accuracy facilitated by AI tools;other measures: outcomes against targets, forecast error, decision cycle time, cost of errors",partial,4,,,,
+M20,mixed,"What challenges to AI adoption does this paper name, and what general practices help organizations address them?",mixed,mixed,llm,"Here's the merged answer:
+
+The paper does not explicitly name any challenges to AI adoption. However, it suggests that one-size-fits-all approaches may not address organizational diversity and readiness levels, implying that there may be challenges related to tailoring AI strategies to individual organizations. According to your document, these challenges may include data quality and availability, organizational resistance to change, and the need for a clear business case.
+
+According to your document, the paper highlights the importance of employee training, change management, and organizational culture in mediating the effects of AI adoption, suggesting that these factors may be relevant to addressing challenges related to AI adoption.
+
+In general, some key ideas that can help organizations address AI adoption challenges include:
+
+* Data quality and availability: AI models require large amounts of high-quality data to train effectively, but many organizations struggle to provide this. To address this, organizations could start by centralizing their data and implementing data governance practices to ensure data quality.
+* Organizational resistance to change: AI implementation can disrupt established processes and require significant changes to how work is done, which can lead to resistance from employees. To address this, organizations could focus on employee training, change management, and organizational culture to ensure a smooth transition.
+* Clear business case: AI projects require a clear justification of the benefits and return on investment to secure funding and support. To address this, organizations could develop a strong business case that outlines the potential benefits and ROI of AI adoption.
+
+Overall, it's essential for organizations to consider their unique needs and challenges when adopting AI, and to prioritize employee training, change management, and data quality to ensure a successful implementation.","[0.55] prioritize AI adoption as a strategic initiative, investing in both technological infrastructure and employee skill development to fully leverage the benefits of generative AI. The results also underscore the need for tailored AI strategies, as one-size-fits-all approaches may not address organizati || [0.54] 99 22.0 4 101 22.5 Journal of Information Systems Engineering and Management 2023, 8(4) e-ISSN: 2468-4376 https://www.jisem-journal.com/ Research Article 7 Copyright © 2023 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License wh || [0.49] AI usage across enterprises involved in workforce planning and resource decision -making. The mean value of AI adoption was approximately 58, indicating a moderate to high level of integration of AI tools an d systems among participating organizations. The error bar represents the standard error of ","paper: infrastructure, training, cost, job security and reskilling concerns;general: training programmes, change management, human oversight, phased rollout",partial,4,,partial,2,
