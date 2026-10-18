@@ -7,7 +7,8 @@ authors:
     orcid: "https://orcid.org/0009-0008-2889-7178"
 abstract: >-
   Capstone project report (Post Graduate Program in Generative AI & Machine
-  Learning, April 2026) presenting the architecture and design of a
+  Learning, April 2026; version 1.1 corrected October 2026 to document
+  the prototype as built) presenting the architecture and design of a
   voice-based multi-agent AI system for hybrid learning. The proposed system
   combines document-based Retrieval-Augmented Generation (RAG) using FAISS
   with open-domain topic knowledge, coordinated by specialized agents for
@@ -20,9 +21,9 @@ keywords:
   - voice AI
   - hybrid learning
   - intelligent tutoring systems
-version: "1.0.0"
-doi: "10.5281/zenodo.23439410"
-date-released: "2026-10-17"
+version: "1.1.0"
+doi: "10.5281/zenodo.23439409"
+date-released: "2026-10-18"
 repository-code: "https://github.com/VenkyRaju708/multi-agent-hybrid-learning-system"
 url: "https://venkatramanlabs.com"
 license: CC-BY-4.0
