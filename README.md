@@ -30,7 +30,7 @@ The system enables users to learn from both user-provided documents and general 
 
 ## Project Documentation
 
-📄 [Capstone Project Report](Agentic_AI_Voice_Capstone_Enhanced.pdf) · Archived on Zenodo: [doi.org/10.5281/zenodo.23439409](https://doi.org/10.5281/zenodo.23439409)
+📄 [Capstone Project Report](Agentic_AI_Voice_Capstone_v1.1.pdf) · Archived on Zenodo: [doi.org/10.5281/zenodo.23439409](https://doi.org/10.5281/zenodo.23439409)
 
 This repository contains the capstone report (Post Graduate Program in Generative AI & Machine Learning, April 2026; version 1.1 corrected October 2026 to document the prototype as built) and the architecture diagram. Implementation code is not included.
 
