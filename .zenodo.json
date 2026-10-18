@@ -2,12 +2,23 @@
   "title": "A Multi-Agent Voice-Based AI System for Hybrid Learning Using Retrieval-Augmented Generation (Capstone Report)",
   "upload_type": "publication",
   "publication_type": "report",
-  "description": "<p>Capstone project report (Post Graduate Program in Generative AI &amp; Machine Learning, April 2026) presenting the architecture and design of a voice-based multi-agent AI system for hybrid learning. The proposed system combines document-based Retrieval-Augmented Generation (RAG) using FAISS with open-domain topic knowledge, coordinated by specialized agents for routing, retrieval, summarization and voice interaction.</p><p>This record contains the capstone report and architecture diagram. Implementation code is not included.</p>",
+  "description": "<p><b>Version 1.1 (October 2026)</b> corrects version 1.0 so that it documents the prototype as built: routing is rule-based (Document mode if a PDF is uploaded, otherwise Topic mode), input is text with pyttsx3 spoken output, tools match the code, the unsupported 30–40% relevance claim and two unreferenced figures are removed, and features are labelled implemented, conceptual or planned. Version 1.0 remains available in the version history.</p><p>Capstone project report (Post Graduate Program in Generative AI &amp; Machine Learning, April 2026) presenting the architecture and design of a voice-based multi-agent AI system for hybrid learning. The proposed system combines document-based Retrieval-Augmented Generation (RAG) using FAISS with open-domain topic knowledge, coordinated by specialized agents for routing, retrieval, summarization and voice interaction.</p><p>This record contains the capstone report and architecture diagram. Implementation code is not included.</p>",
   "creators": [
-    {"name": "Viswanathan, Venkatraman", "orcid": "0009-0008-2889-7178"}
+    {
+      "name": "Viswanathan, Venkatraman",
+      "orcid": "0009-0008-2889-7178"
+    }
   ],
-  "keywords": ["multi-agent systems", "retrieval-augmented generation", "FAISS", "conversational AI", "voice AI", "hybrid learning", "intelligent tutoring systems"],
+  "keywords": [
+    "multi-agent systems",
+    "retrieval-augmented generation",
+    "FAISS",
+    "conversational AI",
+    "voice AI",
+    "hybrid learning",
+    "intelligent tutoring systems"
+  ],
   "license": "cc-by-4.0",
   "language": "eng",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
